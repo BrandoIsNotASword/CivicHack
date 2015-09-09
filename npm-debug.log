@@ -1,0 +1,3363 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/brando/Documents/civic_hack',
+6 verbose install   [ 'react',
+6 verbose install     'normalize.css',
+6 verbose install     'babel',
+6 verbose install     'babel-loader',
+6 verbose install     'grunt',
+6 verbose install     'eslint',
+6 verbose install     'eslint-loader',
+6 verbose install     'eslint-plugin-react',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-webpack',
+6 verbose install     'jasmine-core',
+6 verbose install     'karma',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'karma-script-launcher',
+6 verbose install     'karma-webpack',
+6 verbose install     'style-loader',
+6 verbose install     'url-loader',
+6 verbose install     'css-loader',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-open',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'sass-loader',
+6 verbose install     'react-hot-loader',
+6 verbose install     'webpack',
+6 verbose install     'webpack-dev-server' ] ]
+7 info preinstall civichack@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'react@0.13.x', null ]
+10 verbose cache add name=undefined spec="react@0.13.x" args=["react@0.13.x",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'react@0.13.x',
+11 verbose parsed url   path: 'react@0.13.x',
+11 verbose parsed url   href: 'react@0.13.x' }
+12 verbose cache add [ 'normalize.css@~3.0.3', null ]
+13 verbose cache add name=undefined spec="normalize.css@~3.0.3" args=["normalize.css@~3.0.3",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'normalize.css@~3.0.3',
+14 verbose parsed url   path: 'normalize.css@~3.0.3',
+14 verbose parsed url   href: 'normalize.css@~3.0.3' }
+15 verbose cache add [ 'babel@^5.0.0', null ]
+16 verbose cache add name=undefined spec="babel@^5.0.0" args=["babel@^5.0.0",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'babel@^5.0.0',
+17 verbose parsed url   path: 'babel@^5.0.0',
+17 verbose parsed url   href: 'babel@^5.0.0' }
+18 verbose cache add name="react" spec="0.13.x" args=["react","0.13.x"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '0.13.x',
+19 verbose parsed url   path: '0.13.x',
+19 verbose parsed url   href: '0.13.x' }
+20 verbose addNamed [ 'react', '0.13.x' ]
+21 verbose addNamed [ null, '>=0.13.0-0 <0.14.0-0' ]
+22 verbose cache add name="normalize.css" spec="~3.0.3" args=["normalize.css","~3.0.3"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '~3.0.3',
+23 verbose parsed url   path: '~3.0.3',
+23 verbose parsed url   href: '~3.0.3' }
+24 verbose addNamed [ 'normalize.css', '~3.0.3' ]
+25 verbose addNamed [ null, '>=3.0.3-0 <3.1.0-0' ]
+26 verbose cache add name="babel" spec="^5.0.0" args=["babel","^5.0.0"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '^5.0.0',
+27 verbose parsed url   path: '^5.0.0',
+27 verbose parsed url   href: '^5.0.0' }
+28 verbose addNamed [ 'babel', '^5.0.0' ]
+29 verbose addNamed [ null, '>=5.0.0-0 <6.0.0-0' ]
+30 verbose cache add [ 'babel-loader@^5.0.0', null ]
+31 verbose cache add name=undefined spec="babel-loader@^5.0.0" args=["babel-loader@^5.0.0",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'babel-loader@^5.0.0',
+32 verbose parsed url   path: 'babel-loader@^5.0.0',
+32 verbose parsed url   href: 'babel-loader@^5.0.0' }
+33 verbose cache add [ 'grunt@~0.4.5', null ]
+34 verbose cache add name=undefined spec="grunt@~0.4.5" args=["grunt@~0.4.5",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'grunt@~0.4.5',
+35 verbose parsed url   path: 'grunt@~0.4.5',
+35 verbose parsed url   href: 'grunt@~0.4.5' }
+36 silly lockFile 96c6da0d-react-0-13-x react@0.13.x
+37 verbose lock react@0.13.x /home/brando/.npm/96c6da0d-react-0-13-x.lock
+38 silly lockFile d2e9a4cb-normalize-css-3-0-3 normalize.css@~3.0.3
+39 verbose lock normalize.css@~3.0.3 /home/brando/.npm/d2e9a4cb-normalize-css-3-0-3.lock
+40 silly lockFile e75c02b9-babel-5-0-0 babel@^5.0.0
+41 verbose lock babel@^5.0.0 /home/brando/.npm/e75c02b9-babel-5-0-0.lock
+42 verbose cache add name="babel-loader" spec="^5.0.0" args=["babel-loader","^5.0.0"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '^5.0.0',
+43 verbose parsed url   path: '^5.0.0',
+43 verbose parsed url   href: '^5.0.0' }
+44 verbose addNamed [ 'babel-loader', '^5.0.0' ]
+45 verbose addNamed [ null, '>=5.0.0-0 <6.0.0-0' ]
+46 silly lockFile db4ca65a-babel-loader-5-0-0 babel-loader@^5.0.0
+47 verbose lock babel-loader@^5.0.0 /home/brando/.npm/db4ca65a-babel-loader-5-0-0.lock
+48 verbose cache add name="grunt" spec="~0.4.5" args=["grunt","~0.4.5"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '~0.4.5',
+49 verbose parsed url   path: '~0.4.5',
+49 verbose parsed url   href: '~0.4.5' }
+50 verbose addNamed [ 'grunt', '~0.4.5' ]
+51 verbose addNamed [ null, '>=0.4.5-0 <0.5.0-0' ]
+52 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+53 verbose lock grunt@~0.4.5 /home/brando/.npm/240974bb-grunt-0-4-5.lock
+54 verbose cache add [ 'eslint@^0.21.2', null ]
+55 verbose cache add name=undefined spec="eslint@^0.21.2" args=["eslint@^0.21.2",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'eslint@^0.21.2',
+56 verbose parsed url   path: 'eslint@^0.21.2',
+56 verbose parsed url   href: 'eslint@^0.21.2' }
+57 verbose cache add [ 'eslint-loader@^0.11.2', null ]
+58 verbose cache add name=undefined spec="eslint-loader@^0.11.2" args=["eslint-loader@^0.11.2",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'eslint-loader@^0.11.2',
+59 verbose parsed url   path: 'eslint-loader@^0.11.2',
+59 verbose parsed url   href: 'eslint-loader@^0.11.2' }
+60 verbose cache add name="eslint" spec="^0.21.2" args=["eslint","^0.21.2"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '^0.21.2',
+61 verbose parsed url   path: '^0.21.2',
+61 verbose parsed url   href: '^0.21.2' }
+62 verbose addNamed [ 'eslint', '^0.21.2' ]
+63 verbose addNamed [ null, '>=0.21.2-0 <0.22.0-0' ]
+64 silly lockFile a8f42e7c-eslint-0-21-2 eslint@^0.21.2
+65 verbose lock eslint@^0.21.2 /home/brando/.npm/a8f42e7c-eslint-0-21-2.lock
+66 verbose cache add name="eslint-loader" spec="^0.11.2" args=["eslint-loader","^0.11.2"]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: '^0.11.2',
+67 verbose parsed url   path: '^0.11.2',
+67 verbose parsed url   href: '^0.11.2' }
+68 verbose addNamed [ 'eslint-loader', '^0.11.2' ]
+69 verbose addNamed [ null, '>=0.11.2-0 <0.12.0-0' ]
+70 silly lockFile 8a5375c6-eslint-loader-0-11-2 eslint-loader@^0.11.2
+71 verbose lock eslint-loader@^0.11.2 /home/brando/.npm/8a5375c6-eslint-loader-0-11-2.lock
+72 verbose cache add [ 'eslint-plugin-react@^2.4.0', null ]
+73 verbose cache add name=undefined spec="eslint-plugin-react@^2.4.0" args=["eslint-plugin-react@^2.4.0",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'eslint-plugin-react@^2.4.0',
+74 verbose parsed url   path: 'eslint-plugin-react@^2.4.0',
+74 verbose parsed url   href: 'eslint-plugin-react@^2.4.0' }
+75 silly addNameRange { name: 'react', range: '>=0.13.0-0 <0.14.0-0', hasData: false }
+76 silly addNameRange { name: 'normalize.css',
+76 silly addNameRange   range: '>=3.0.3-0 <3.1.0-0',
+76 silly addNameRange   hasData: false }
+77 silly addNameRange { name: 'babel', range: '>=5.0.0-0 <6.0.0-0', hasData: false }
+78 silly addNameRange { name: 'babel-loader',
+78 silly addNameRange   range: '>=5.0.0-0 <6.0.0-0',
+78 silly addNameRange   hasData: false }
+79 silly addNameRange { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: false }
+80 verbose cache add name="eslint-plugin-react" spec="^2.4.0" args=["eslint-plugin-react","^2.4.0"]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: '^2.4.0',
+81 verbose parsed url   path: '^2.4.0',
+81 verbose parsed url   href: '^2.4.0' }
+82 verbose addNamed [ 'eslint-plugin-react', '^2.4.0' ]
+83 verbose addNamed [ null, '>=2.4.0-0 <3.0.0-0' ]
+84 silly lockFile 80675104-eslint-plugin-react-2-4-0 eslint-plugin-react@^2.4.0
+85 verbose lock eslint-plugin-react@^2.4.0 /home/brando/.npm/80675104-eslint-plugin-react-2-4-0.lock
+86 verbose cache add [ 'load-grunt-tasks@~0.6.0', null ]
+87 verbose cache add name=undefined spec="load-grunt-tasks@~0.6.0" args=["load-grunt-tasks@~0.6.0",null]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'load-grunt-tasks@~0.6.0',
+88 verbose parsed url   path: 'load-grunt-tasks@~0.6.0',
+88 verbose parsed url   href: 'load-grunt-tasks@~0.6.0' }
+89 verbose cache add [ 'grunt-contrib-connect@~0.8.0', null ]
+90 verbose cache add name=undefined spec="grunt-contrib-connect@~0.8.0" args=["grunt-contrib-connect@~0.8.0",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'grunt-contrib-connect@~0.8.0',
+91 verbose parsed url   path: 'grunt-contrib-connect@~0.8.0',
+91 verbose parsed url   href: 'grunt-contrib-connect@~0.8.0' }
+92 verbose cache add [ 'grunt-webpack@~1.0.8', null ]
+93 verbose cache add name=undefined spec="grunt-webpack@~1.0.8" args=["grunt-webpack@~1.0.8",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'grunt-webpack@~1.0.8',
+94 verbose parsed url   path: 'grunt-webpack@~1.0.8',
+94 verbose parsed url   href: 'grunt-webpack@~1.0.8' }
+95 verbose cache add [ 'jasmine-core@^2.3.4', null ]
+96 verbose cache add name=undefined spec="jasmine-core@^2.3.4" args=["jasmine-core@^2.3.4",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'jasmine-core@^2.3.4',
+97 verbose parsed url   path: 'jasmine-core@^2.3.4',
+97 verbose parsed url   href: 'jasmine-core@^2.3.4' }
+98 verbose cache add [ 'karma@~0.12.21', null ]
+99 verbose cache add name=undefined spec="karma@~0.12.21" args=["karma@~0.12.21",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'karma@~0.12.21',
+100 verbose parsed url   path: 'karma@~0.12.21',
+100 verbose parsed url   href: 'karma@~0.12.21' }
+101 verbose cache add [ 'karma-jasmine@^0.3.5', null ]
+102 verbose cache add name=undefined spec="karma-jasmine@^0.3.5" args=["karma-jasmine@^0.3.5",null]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: 'karma-jasmine@^0.3.5',
+103 verbose parsed url   path: 'karma-jasmine@^0.3.5',
+103 verbose parsed url   href: 'karma-jasmine@^0.3.5' }
+104 verbose cache add [ 'karma-phantomjs-launcher@~0.1.3', null ]
+105 verbose cache add name=undefined spec="karma-phantomjs-launcher@~0.1.3" args=["karma-phantomjs-launcher@~0.1.3",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'karma-phantomjs-launcher@~0.1.3',
+106 verbose parsed url   path: 'karma-phantomjs-launcher@~0.1.3',
+106 verbose parsed url   href: 'karma-phantomjs-launcher@~0.1.3' }
+107 verbose cache add [ 'karma-script-launcher@~0.1.0', null ]
+108 verbose cache add name=undefined spec="karma-script-launcher@~0.1.0" args=["karma-script-launcher@~0.1.0",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'karma-script-launcher@~0.1.0',
+109 verbose parsed url   path: 'karma-script-launcher@~0.1.0',
+109 verbose parsed url   href: 'karma-script-launcher@~0.1.0' }
+110 verbose cache add [ 'karma-webpack@^1.5.0', null ]
+111 verbose cache add name=undefined spec="karma-webpack@^1.5.0" args=["karma-webpack@^1.5.0",null]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'karma-webpack@^1.5.0',
+112 verbose parsed url   path: 'karma-webpack@^1.5.0',
+112 verbose parsed url   href: 'karma-webpack@^1.5.0' }
+113 verbose cache add [ 'style-loader@~0.8.0', null ]
+114 verbose cache add name=undefined spec="style-loader@~0.8.0" args=["style-loader@~0.8.0",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'style-loader@~0.8.0',
+115 verbose parsed url   path: 'style-loader@~0.8.0',
+115 verbose parsed url   href: 'style-loader@~0.8.0' }
+116 verbose cache add [ 'url-loader@~0.5.5', null ]
+117 verbose cache add name=undefined spec="url-loader@~0.5.5" args=["url-loader@~0.5.5",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'url-loader@~0.5.5',
+118 verbose parsed url   path: 'url-loader@~0.5.5',
+118 verbose parsed url   href: 'url-loader@~0.5.5' }
+119 verbose cache add [ 'css-loader@~0.9.0', null ]
+120 verbose cache add name=undefined spec="css-loader@~0.9.0" args=["css-loader@~0.9.0",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'css-loader@~0.9.0',
+121 verbose parsed url   path: 'css-loader@~0.9.0',
+121 verbose parsed url   href: 'css-loader@~0.9.0' }
+122 verbose cache add [ 'grunt-karma@~0.8.3', null ]
+123 verbose cache add name=undefined spec="grunt-karma@~0.8.3" args=["grunt-karma@~0.8.3",null]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'grunt-karma@~0.8.3',
+124 verbose parsed url   path: 'grunt-karma@~0.8.3',
+124 verbose parsed url   href: 'grunt-karma@~0.8.3' }
+125 verbose cache add [ 'grunt-open@~0.2.3', null ]
+126 verbose cache add name=undefined spec="grunt-open@~0.2.3" args=["grunt-open@~0.2.3",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'grunt-open@~0.2.3',
+127 verbose parsed url   path: 'grunt-open@~0.2.3',
+127 verbose parsed url   href: 'grunt-open@~0.2.3' }
+128 verbose cache add [ 'grunt-contrib-copy@~0.5.0', null ]
+129 verbose cache add name=undefined spec="grunt-contrib-copy@~0.5.0" args=["grunt-contrib-copy@~0.5.0",null]
+130 verbose parsed url { protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: 'grunt-contrib-copy@~0.5.0',
+130 verbose parsed url   path: 'grunt-contrib-copy@~0.5.0',
+130 verbose parsed url   href: 'grunt-contrib-copy@~0.5.0' }
+131 verbose cache add [ 'grunt-contrib-clean@~0.6.0', null ]
+132 verbose cache add name=undefined spec="grunt-contrib-clean@~0.6.0" args=["grunt-contrib-clean@~0.6.0",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'grunt-contrib-clean@~0.6.0',
+133 verbose parsed url   path: 'grunt-contrib-clean@~0.6.0',
+133 verbose parsed url   href: 'grunt-contrib-clean@~0.6.0' }
+134 verbose cache add [ 'sass-loader@^1.0.1', null ]
+135 verbose cache add name=undefined spec="sass-loader@^1.0.1" args=["sass-loader@^1.0.1",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'sass-loader@^1.0.1',
+136 verbose parsed url   path: 'sass-loader@^1.0.1',
+136 verbose parsed url   href: 'sass-loader@^1.0.1' }
+137 verbose cache add [ 'react-hot-loader@^1.0.7', null ]
+138 verbose cache add name=undefined spec="react-hot-loader@^1.0.7" args=["react-hot-loader@^1.0.7",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'react-hot-loader@^1.0.7',
+139 verbose parsed url   path: 'react-hot-loader@^1.0.7',
+139 verbose parsed url   href: 'react-hot-loader@^1.0.7' }
+140 verbose cache add [ 'webpack@~1.10.0', null ]
+141 verbose cache add name=undefined spec="webpack@~1.10.0" args=["webpack@~1.10.0",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'webpack@~1.10.0',
+142 verbose parsed url   path: 'webpack@~1.10.0',
+142 verbose parsed url   href: 'webpack@~1.10.0' }
+143 verbose cache add [ 'webpack-dev-server@~1.10.0', null ]
+144 verbose cache add name=undefined spec="webpack-dev-server@~1.10.0" args=["webpack-dev-server@~1.10.0",null]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: 'webpack-dev-server@~1.10.0',
+145 verbose parsed url   path: 'webpack-dev-server@~1.10.0',
+145 verbose parsed url   href: 'webpack-dev-server@~1.10.0' }
+146 silly addNameRange { name: 'eslint', range: '>=0.21.2-0 <0.22.0-0', hasData: false }
+147 silly addNameRange { name: 'eslint-loader',
+147 silly addNameRange   range: '>=0.11.2-0 <0.12.0-0',
+147 silly addNameRange   hasData: false }
+148 verbose cache add name="load-grunt-tasks" spec="~0.6.0" args=["load-grunt-tasks","~0.6.0"]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '~0.6.0',
+149 verbose parsed url   path: '~0.6.0',
+149 verbose parsed url   href: '~0.6.0' }
+150 verbose addNamed [ 'load-grunt-tasks', '~0.6.0' ]
+151 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+152 silly lockFile fd6cb364-load-grunt-tasks-0-6-0 load-grunt-tasks@~0.6.0
+153 verbose lock load-grunt-tasks@~0.6.0 /home/brando/.npm/fd6cb364-load-grunt-tasks-0-6-0.lock
+154 verbose cache add name="grunt-contrib-connect" spec="~0.8.0" args=["grunt-contrib-connect","~0.8.0"]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '~0.8.0',
+155 verbose parsed url   path: '~0.8.0',
+155 verbose parsed url   href: '~0.8.0' }
+156 verbose addNamed [ 'grunt-contrib-connect', '~0.8.0' ]
+157 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+158 silly lockFile ebb9bf51-grunt-contrib-connect-0-8-0 grunt-contrib-connect@~0.8.0
+159 verbose lock grunt-contrib-connect@~0.8.0 /home/brando/.npm/ebb9bf51-grunt-contrib-connect-0-8-0.lock
+160 verbose cache add name="grunt-webpack" spec="~1.0.8" args=["grunt-webpack","~1.0.8"]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: '~1.0.8',
+161 verbose parsed url   path: '~1.0.8',
+161 verbose parsed url   href: '~1.0.8' }
+162 verbose addNamed [ 'grunt-webpack', '~1.0.8' ]
+163 verbose addNamed [ null, '>=1.0.8-0 <1.1.0-0' ]
+164 silly lockFile ece8a4e8-grunt-webpack-1-0-8 grunt-webpack@~1.0.8
+165 verbose lock grunt-webpack@~1.0.8 /home/brando/.npm/ece8a4e8-grunt-webpack-1-0-8.lock
+166 verbose cache add name="jasmine-core" spec="^2.3.4" args=["jasmine-core","^2.3.4"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '^2.3.4',
+167 verbose parsed url   path: '^2.3.4',
+167 verbose parsed url   href: '^2.3.4' }
+168 verbose addNamed [ 'jasmine-core', '^2.3.4' ]
+169 verbose addNamed [ null, '>=2.3.4-0 <3.0.0-0' ]
+170 silly lockFile a159a41e-jasmine-core-2-3-4 jasmine-core@^2.3.4
+171 verbose lock jasmine-core@^2.3.4 /home/brando/.npm/a159a41e-jasmine-core-2-3-4.lock
+172 verbose cache add name="karma" spec="~0.12.21" args=["karma","~0.12.21"]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: '~0.12.21',
+173 verbose parsed url   path: '~0.12.21',
+173 verbose parsed url   href: '~0.12.21' }
+174 verbose addNamed [ 'karma', '~0.12.21' ]
+175 verbose addNamed [ null, '>=0.12.21-0 <0.13.0-0' ]
+176 silly lockFile 7dec21f7-karma-0-12-21 karma@~0.12.21
+177 verbose lock karma@~0.12.21 /home/brando/.npm/7dec21f7-karma-0-12-21.lock
+178 verbose cache add name="karma-jasmine" spec="^0.3.5" args=["karma-jasmine","^0.3.5"]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: '^0.3.5',
+179 verbose parsed url   path: '^0.3.5',
+179 verbose parsed url   href: '^0.3.5' }
+180 verbose addNamed [ 'karma-jasmine', '^0.3.5' ]
+181 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+182 silly lockFile b0acc008-karma-jasmine-0-3-5 karma-jasmine@^0.3.5
+183 verbose lock karma-jasmine@^0.3.5 /home/brando/.npm/b0acc008-karma-jasmine-0-3-5.lock
+184 verbose cache add name="karma-phantomjs-launcher" spec="~0.1.3" args=["karma-phantomjs-launcher","~0.1.3"]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: '~0.1.3',
+185 verbose parsed url   path: '~0.1.3',
+185 verbose parsed url   href: '~0.1.3' }
+186 verbose addNamed [ 'karma-phantomjs-launcher', '~0.1.3' ]
+187 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+188 silly lockFile b256e99c-karma-phantomjs-launcher-0-1-3 karma-phantomjs-launcher@~0.1.3
+189 verbose lock karma-phantomjs-launcher@~0.1.3 /home/brando/.npm/b256e99c-karma-phantomjs-launcher-0-1-3.lock
+190 verbose cache add name="karma-script-launcher" spec="~0.1.0" args=["karma-script-launcher","~0.1.0"]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: '~0.1.0',
+191 verbose parsed url   path: '~0.1.0',
+191 verbose parsed url   href: '~0.1.0' }
+192 verbose addNamed [ 'karma-script-launcher', '~0.1.0' ]
+193 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+194 silly lockFile 706ef7c2-karma-script-launcher-0-1-0 karma-script-launcher@~0.1.0
+195 verbose lock karma-script-launcher@~0.1.0 /home/brando/.npm/706ef7c2-karma-script-launcher-0-1-0.lock
+196 verbose cache add name="karma-webpack" spec="^1.5.0" args=["karma-webpack","^1.5.0"]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '^1.5.0',
+197 verbose parsed url   path: '^1.5.0',
+197 verbose parsed url   href: '^1.5.0' }
+198 verbose addNamed [ 'karma-webpack', '^1.5.0' ]
+199 verbose addNamed [ null, '>=1.5.0-0 <2.0.0-0' ]
+200 silly lockFile fc596890-karma-webpack-1-5-0 karma-webpack@^1.5.0
+201 verbose lock karma-webpack@^1.5.0 /home/brando/.npm/fc596890-karma-webpack-1-5-0.lock
+202 verbose cache add name="style-loader" spec="~0.8.0" args=["style-loader","~0.8.0"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '~0.8.0',
+203 verbose parsed url   path: '~0.8.0',
+203 verbose parsed url   href: '~0.8.0' }
+204 verbose addNamed [ 'style-loader', '~0.8.0' ]
+205 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+206 silly lockFile 71f5845d-style-loader-0-8-0 style-loader@~0.8.0
+207 verbose lock style-loader@~0.8.0 /home/brando/.npm/71f5845d-style-loader-0-8-0.lock
+208 verbose cache add name="url-loader" spec="~0.5.5" args=["url-loader","~0.5.5"]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: '~0.5.5',
+209 verbose parsed url   path: '~0.5.5',
+209 verbose parsed url   href: '~0.5.5' }
+210 verbose addNamed [ 'url-loader', '~0.5.5' ]
+211 verbose addNamed [ null, '>=0.5.5-0 <0.6.0-0' ]
+212 silly lockFile fc79b28d-url-loader-0-5-5 url-loader@~0.5.5
+213 verbose lock url-loader@~0.5.5 /home/brando/.npm/fc79b28d-url-loader-0-5-5.lock
+214 verbose cache add name="css-loader" spec="~0.9.0" args=["css-loader","~0.9.0"]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: '~0.9.0',
+215 verbose parsed url   path: '~0.9.0',
+215 verbose parsed url   href: '~0.9.0' }
+216 verbose addNamed [ 'css-loader', '~0.9.0' ]
+217 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+218 silly lockFile 6a3b2ed2-css-loader-0-9-0 css-loader@~0.9.0
+219 verbose lock css-loader@~0.9.0 /home/brando/.npm/6a3b2ed2-css-loader-0-9-0.lock
+220 verbose cache add name="grunt-karma" spec="~0.8.3" args=["grunt-karma","~0.8.3"]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: '~0.8.3',
+221 verbose parsed url   path: '~0.8.3',
+221 verbose parsed url   href: '~0.8.3' }
+222 verbose addNamed [ 'grunt-karma', '~0.8.3' ]
+223 verbose addNamed [ null, '>=0.8.3-0 <0.9.0-0' ]
+224 silly lockFile 1545a07a-grunt-karma-0-8-3 grunt-karma@~0.8.3
+225 verbose lock grunt-karma@~0.8.3 /home/brando/.npm/1545a07a-grunt-karma-0-8-3.lock
+226 verbose cache add name="grunt-open" spec="~0.2.3" args=["grunt-open","~0.2.3"]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: '~0.2.3',
+227 verbose parsed url   path: '~0.2.3',
+227 verbose parsed url   href: '~0.2.3' }
+228 verbose addNamed [ 'grunt-open', '~0.2.3' ]
+229 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+230 silly lockFile ff1e06d2-grunt-open-0-2-3 grunt-open@~0.2.3
+231 verbose lock grunt-open@~0.2.3 /home/brando/.npm/ff1e06d2-grunt-open-0-2-3.lock
+232 verbose cache add name="grunt-contrib-copy" spec="~0.5.0" args=["grunt-contrib-copy","~0.5.0"]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: '~0.5.0',
+233 verbose parsed url   path: '~0.5.0',
+233 verbose parsed url   href: '~0.5.0' }
+234 verbose addNamed [ 'grunt-contrib-copy', '~0.5.0' ]
+235 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+236 silly lockFile ac3d673b-grunt-contrib-copy-0-5-0 grunt-contrib-copy@~0.5.0
+237 verbose lock grunt-contrib-copy@~0.5.0 /home/brando/.npm/ac3d673b-grunt-contrib-copy-0-5-0.lock
+238 verbose cache add name="grunt-contrib-clean" spec="~0.6.0" args=["grunt-contrib-clean","~0.6.0"]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: '~0.6.0',
+239 verbose parsed url   path: '~0.6.0',
+239 verbose parsed url   href: '~0.6.0' }
+240 verbose addNamed [ 'grunt-contrib-clean', '~0.6.0' ]
+241 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+242 silly lockFile 944867a7-grunt-contrib-clean-0-6-0 grunt-contrib-clean@~0.6.0
+243 verbose lock grunt-contrib-clean@~0.6.0 /home/brando/.npm/944867a7-grunt-contrib-clean-0-6-0.lock
+244 verbose cache add name="sass-loader" spec="^1.0.1" args=["sass-loader","^1.0.1"]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: '^1.0.1',
+245 verbose parsed url   path: '^1.0.1',
+245 verbose parsed url   href: '^1.0.1' }
+246 verbose addNamed [ 'sass-loader', '^1.0.1' ]
+247 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+248 silly lockFile f484dad6-sass-loader-1-0-1 sass-loader@^1.0.1
+249 verbose lock sass-loader@^1.0.1 /home/brando/.npm/f484dad6-sass-loader-1-0-1.lock
+250 verbose cache add name="react-hot-loader" spec="^1.0.7" args=["react-hot-loader","^1.0.7"]
+251 verbose parsed url { protocol: null,
+251 verbose parsed url   slashes: null,
+251 verbose parsed url   auth: null,
+251 verbose parsed url   host: null,
+251 verbose parsed url   port: null,
+251 verbose parsed url   hostname: null,
+251 verbose parsed url   hash: null,
+251 verbose parsed url   search: null,
+251 verbose parsed url   query: null,
+251 verbose parsed url   pathname: '^1.0.7',
+251 verbose parsed url   path: '^1.0.7',
+251 verbose parsed url   href: '^1.0.7' }
+252 verbose addNamed [ 'react-hot-loader', '^1.0.7' ]
+253 verbose addNamed [ null, '>=1.0.7-0 <2.0.0-0' ]
+254 silly lockFile 4e0557fa-react-hot-loader-1-0-7 react-hot-loader@^1.0.7
+255 verbose lock react-hot-loader@^1.0.7 /home/brando/.npm/4e0557fa-react-hot-loader-1-0-7.lock
+256 verbose cache add name="webpack" spec="~1.10.0" args=["webpack","~1.10.0"]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: '~1.10.0',
+257 verbose parsed url   path: '~1.10.0',
+257 verbose parsed url   href: '~1.10.0' }
+258 verbose addNamed [ 'webpack', '~1.10.0' ]
+259 verbose addNamed [ null, '>=1.10.0-0 <1.11.0-0' ]
+260 silly lockFile 17d5fe9f-webpack-1-10-0 webpack@~1.10.0
+261 verbose lock webpack@~1.10.0 /home/brando/.npm/17d5fe9f-webpack-1-10-0.lock
+262 verbose cache add name="webpack-dev-server" spec="~1.10.0" args=["webpack-dev-server","~1.10.0"]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: '~1.10.0',
+263 verbose parsed url   path: '~1.10.0',
+263 verbose parsed url   href: '~1.10.0' }
+264 verbose addNamed [ 'webpack-dev-server', '~1.10.0' ]
+265 verbose addNamed [ null, '>=1.10.0-0 <1.11.0-0' ]
+266 silly lockFile 12c15e50-webpack-dev-server-1-10-0 webpack-dev-server@~1.10.0
+267 verbose lock webpack-dev-server@~1.10.0 /home/brando/.npm/12c15e50-webpack-dev-server-1-10-0.lock
+268 silly addNameRange { name: 'eslint-plugin-react',
+268 silly addNameRange   range: '>=2.4.0-0 <3.0.0-0',
+268 silly addNameRange   hasData: false }
+269 silly addNameRange { name: 'load-grunt-tasks',
+269 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+269 silly addNameRange   hasData: false }
+270 silly addNameRange { name: 'grunt-contrib-connect',
+270 silly addNameRange   range: '>=0.8.0-0 <0.9.0-0',
+270 silly addNameRange   hasData: false }
+271 silly addNameRange { name: 'grunt-webpack',
+271 silly addNameRange   range: '>=1.0.8-0 <1.1.0-0',
+271 silly addNameRange   hasData: false }
+272 silly addNameRange { name: 'jasmine-core',
+272 silly addNameRange   range: '>=2.3.4-0 <3.0.0-0',
+272 silly addNameRange   hasData: false }
+273 silly addNameRange { name: 'karma', range: '>=0.12.21-0 <0.13.0-0', hasData: false }
+274 silly addNameRange { name: 'karma-jasmine',
+274 silly addNameRange   range: '>=0.3.5-0 <0.4.0-0',
+274 silly addNameRange   hasData: false }
+275 silly addNameRange { name: 'karma-phantomjs-launcher',
+275 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+275 silly addNameRange   hasData: false }
+276 silly addNameRange { name: 'karma-script-launcher',
+276 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+276 silly addNameRange   hasData: false }
+277 silly addNameRange { name: 'karma-webpack',
+277 silly addNameRange   range: '>=1.5.0-0 <2.0.0-0',
+277 silly addNameRange   hasData: false }
+278 silly addNameRange { name: 'style-loader',
+278 silly addNameRange   range: '>=0.8.0-0 <0.9.0-0',
+278 silly addNameRange   hasData: false }
+279 silly addNameRange { name: 'url-loader',
+279 silly addNameRange   range: '>=0.5.5-0 <0.6.0-0',
+279 silly addNameRange   hasData: false }
+280 silly addNameRange { name: 'css-loader',
+280 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+280 silly addNameRange   hasData: false }
+281 silly addNameRange { name: 'grunt-karma',
+281 silly addNameRange   range: '>=0.8.3-0 <0.9.0-0',
+281 silly addNameRange   hasData: false }
+282 silly addNameRange { name: 'grunt-open',
+282 silly addNameRange   range: '>=0.2.3-0 <0.3.0-0',
+282 silly addNameRange   hasData: false }
+283 silly addNameRange { name: 'grunt-contrib-copy',
+283 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+283 silly addNameRange   hasData: false }
+284 silly addNameRange { name: 'grunt-contrib-clean',
+284 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+284 silly addNameRange   hasData: false }
+285 silly addNameRange { name: 'sass-loader',
+285 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+285 silly addNameRange   hasData: false }
+286 silly addNameRange { name: 'react-hot-loader',
+286 silly addNameRange   range: '>=1.0.7-0 <2.0.0-0',
+286 silly addNameRange   hasData: false }
+287 silly addNameRange { name: 'webpack',
+287 silly addNameRange   range: '>=1.10.0-0 <1.11.0-0',
+287 silly addNameRange   hasData: false }
+288 silly addNameRange { name: 'webpack-dev-server',
+288 silly addNameRange   range: '>=1.10.0-0 <1.11.0-0',
+288 silly addNameRange   hasData: false }
+289 verbose request where is /react
+290 verbose request registry https://registry.npmjs.org/
+291 verbose request id f711d2765991e139
+292 verbose url raw /react
+293 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+294 verbose url resolved https://registry.npmjs.org/react
+295 verbose request where is https://registry.npmjs.org/react
+296 info trying registry request attempt 1 at 22:40:20
+297 verbose etag "59SW56QS9IDNIFNHJLUOXVETL"
+298 http GET https://registry.npmjs.org/react
+299 verbose request where is /babel
+300 verbose request registry https://registry.npmjs.org/
+301 verbose url raw /babel
+302 verbose url resolving [ 'https://registry.npmjs.org/', './babel' ]
+303 verbose url resolved https://registry.npmjs.org/babel
+304 verbose request where is https://registry.npmjs.org/babel
+305 info trying registry request attempt 1 at 22:40:20
+306 verbose etag "8VV1R81MP9UHLXPRZXRQM1JBG"
+307 http GET https://registry.npmjs.org/babel
+308 verbose request where is /grunt
+309 verbose request registry https://registry.npmjs.org/
+310 verbose url raw /grunt
+311 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+312 verbose url resolved https://registry.npmjs.org/grunt
+313 verbose request where is https://registry.npmjs.org/grunt
+314 info trying registry request attempt 1 at 22:40:20
+315 verbose etag "C9FSPBE0T8D8WM2EV6ABH7GZU"
+316 http GET https://registry.npmjs.org/grunt
+317 verbose request where is /eslint
+318 verbose request registry https://registry.npmjs.org/
+319 verbose url raw /eslint
+320 verbose url resolving [ 'https://registry.npmjs.org/', './eslint' ]
+321 verbose url resolved https://registry.npmjs.org/eslint
+322 verbose request where is https://registry.npmjs.org/eslint
+323 info trying registry request attempt 1 at 22:40:20
+324 verbose etag "BPTYKQHDBF6FRKZ61YOTHHE1S"
+325 http GET https://registry.npmjs.org/eslint
+326 verbose request where is /babel-loader
+327 verbose request registry https://registry.npmjs.org/
+328 verbose url raw /babel-loader
+329 verbose url resolving [ 'https://registry.npmjs.org/', './babel-loader' ]
+330 verbose url resolved https://registry.npmjs.org/babel-loader
+331 verbose request where is https://registry.npmjs.org/babel-loader
+332 info trying registry request attempt 1 at 22:40:20
+333 verbose etag "GMB4691Y50HSI7ON27IM7BF2"
+334 http GET https://registry.npmjs.org/babel-loader
+335 verbose request where is /normalize.css
+336 verbose request registry https://registry.npmjs.org/
+337 verbose url raw /normalize.css
+338 verbose url resolving [ 'https://registry.npmjs.org/', './normalize.css' ]
+339 verbose url resolved https://registry.npmjs.org/normalize.css
+340 verbose request where is https://registry.npmjs.org/normalize.css
+341 info trying registry request attempt 1 at 22:40:20
+342 verbose etag "8K7MRS15Q37LH23N9NRCXO0SN"
+343 http GET https://registry.npmjs.org/normalize.css
+344 verbose request where is /eslint-plugin-react
+345 verbose request registry https://registry.npmjs.org/
+346 verbose url raw /eslint-plugin-react
+347 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-react' ]
+348 verbose url resolved https://registry.npmjs.org/eslint-plugin-react
+349 verbose request where is https://registry.npmjs.org/eslint-plugin-react
+350 info trying registry request attempt 1 at 22:40:20
+351 verbose etag "6MDWV9GZUNN16J1PDX87EQSRP"
+352 http GET https://registry.npmjs.org/eslint-plugin-react
+353 verbose request where is /eslint-loader
+354 verbose request registry https://registry.npmjs.org/
+355 verbose url raw /eslint-loader
+356 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-loader' ]
+357 verbose url resolved https://registry.npmjs.org/eslint-loader
+358 verbose request where is https://registry.npmjs.org/eslint-loader
+359 info trying registry request attempt 1 at 22:40:20
+360 verbose etag "CBJYFE0S42414HJLDJKXAPRQK"
+361 http GET https://registry.npmjs.org/eslint-loader
+362 verbose request where is /jasmine-core
+363 verbose request registry https://registry.npmjs.org/
+364 verbose url raw /jasmine-core
+365 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-core' ]
+366 verbose url resolved https://registry.npmjs.org/jasmine-core
+367 verbose request where is https://registry.npmjs.org/jasmine-core
+368 info trying registry request attempt 1 at 22:40:20
+369 verbose etag "99GNUK9ILVWSY6A3UAGYWFQA3"
+370 http GET https://registry.npmjs.org/jasmine-core
+371 verbose request where is /load-grunt-tasks
+372 verbose request registry https://registry.npmjs.org/
+373 verbose url raw /load-grunt-tasks
+374 verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+375 verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+376 verbose request where is https://registry.npmjs.org/load-grunt-tasks
+377 info trying registry request attempt 1 at 22:40:20
+378 verbose etag "1KDJIPGHQ3N3KZJXPZ8DFMF9N"
+379 http GET https://registry.npmjs.org/load-grunt-tasks
+380 verbose request where is /grunt-webpack
+381 verbose request registry https://registry.npmjs.org/
+382 verbose url raw /grunt-webpack
+383 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-webpack' ]
+384 verbose url resolved https://registry.npmjs.org/grunt-webpack
+385 verbose request where is https://registry.npmjs.org/grunt-webpack
+386 info trying registry request attempt 1 at 22:40:20
+387 verbose etag "C4TDYCTH3MV9S6KQV7HEWJQNB"
+388 http GET https://registry.npmjs.org/grunt-webpack
+389 verbose request where is /grunt-contrib-connect
+390 verbose request registry https://registry.npmjs.org/
+391 verbose url raw /grunt-contrib-connect
+392 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+393 verbose url resolved https://registry.npmjs.org/grunt-contrib-connect
+394 verbose request where is https://registry.npmjs.org/grunt-contrib-connect
+395 info trying registry request attempt 1 at 22:40:20
+396 verbose etag "AULK8B2Z55DVVOTNECFVLPW2G"
+397 http GET https://registry.npmjs.org/grunt-contrib-connect
+398 verbose request where is /karma-phantomjs-launcher
+399 verbose request registry https://registry.npmjs.org/
+400 verbose url raw /karma-phantomjs-launcher
+401 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantomjs-launcher' ]
+402 verbose url resolved https://registry.npmjs.org/karma-phantomjs-launcher
+403 verbose request where is https://registry.npmjs.org/karma-phantomjs-launcher
+404 info trying registry request attempt 1 at 22:40:20
+405 verbose etag "6QEMJXIEFKDNUO8OR7TJM268U"
+406 http GET https://registry.npmjs.org/karma-phantomjs-launcher
+407 verbose request where is /karma-jasmine
+408 verbose request registry https://registry.npmjs.org/
+409 verbose url raw /karma-jasmine
+410 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jasmine' ]
+411 verbose url resolved https://registry.npmjs.org/karma-jasmine
+412 verbose request where is https://registry.npmjs.org/karma-jasmine
+413 info trying registry request attempt 1 at 22:40:20
+414 verbose etag "2J6UAR9NXZPCFGE8G52CPBZOW"
+415 http GET https://registry.npmjs.org/karma-jasmine
+416 verbose request where is /karma-script-launcher
+417 verbose request registry https://registry.npmjs.org/
+418 verbose url raw /karma-script-launcher
+419 verbose url resolving [ 'https://registry.npmjs.org/', './karma-script-launcher' ]
+420 verbose url resolved https://registry.npmjs.org/karma-script-launcher
+421 verbose request where is https://registry.npmjs.org/karma-script-launcher
+422 info trying registry request attempt 1 at 22:40:20
+423 verbose etag "B7K7G6UQ3EPBF6VMO7AP9CU9H"
+424 http GET https://registry.npmjs.org/karma-script-launcher
+425 verbose request where is /url-loader
+426 verbose request registry https://registry.npmjs.org/
+427 verbose url raw /url-loader
+428 verbose url resolving [ 'https://registry.npmjs.org/', './url-loader' ]
+429 verbose url resolved https://registry.npmjs.org/url-loader
+430 verbose request where is https://registry.npmjs.org/url-loader
+431 info trying registry request attempt 1 at 22:40:20
+432 verbose etag "EEC3BTQL6ITTFZJQ8MSKQP1SW"
+433 http GET https://registry.npmjs.org/url-loader
+434 verbose request where is /karma-webpack
+435 verbose request registry https://registry.npmjs.org/
+436 verbose url raw /karma-webpack
+437 verbose url resolving [ 'https://registry.npmjs.org/', './karma-webpack' ]
+438 verbose url resolved https://registry.npmjs.org/karma-webpack
+439 verbose request where is https://registry.npmjs.org/karma-webpack
+440 info trying registry request attempt 1 at 22:40:20
+441 verbose etag "CSJO1S028COH495BQ0WB3FJCL"
+442 http GET https://registry.npmjs.org/karma-webpack
+443 verbose request where is /grunt-karma
+444 verbose request registry https://registry.npmjs.org/
+445 verbose url raw /grunt-karma
+446 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-karma' ]
+447 verbose url resolved https://registry.npmjs.org/grunt-karma
+448 verbose request where is https://registry.npmjs.org/grunt-karma
+449 info trying registry request attempt 1 at 22:40:20
+450 verbose etag "BSH5IB7CB2VWYVVYV99RBHGH8"
+451 http GET https://registry.npmjs.org/grunt-karma
+452 verbose request where is /style-loader
+453 verbose request registry https://registry.npmjs.org/
+454 verbose url raw /style-loader
+455 verbose url resolving [ 'https://registry.npmjs.org/', './style-loader' ]
+456 verbose url resolved https://registry.npmjs.org/style-loader
+457 verbose request where is https://registry.npmjs.org/style-loader
+458 info trying registry request attempt 1 at 22:40:20
+459 verbose etag "D9HT6K1WTMXOC1WBAC3JWDJXT"
+460 http GET https://registry.npmjs.org/style-loader
+461 verbose request where is /css-loader
+462 verbose request registry https://registry.npmjs.org/
+463 verbose url raw /css-loader
+464 verbose url resolving [ 'https://registry.npmjs.org/', './css-loader' ]
+465 verbose url resolved https://registry.npmjs.org/css-loader
+466 verbose request where is https://registry.npmjs.org/css-loader
+467 info trying registry request attempt 1 at 22:40:20
+468 verbose etag "66HIQIBYMS7YFBMT83DNLQVU4"
+469 http GET https://registry.npmjs.org/css-loader
+470 verbose request where is /grunt-open
+471 verbose request registry https://registry.npmjs.org/
+472 verbose url raw /grunt-open
+473 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-open' ]
+474 verbose url resolved https://registry.npmjs.org/grunt-open
+475 verbose request where is https://registry.npmjs.org/grunt-open
+476 info trying registry request attempt 1 at 22:40:20
+477 verbose etag "BNU65HXCNE4TUUNNC619W8VGR"
+478 http GET https://registry.npmjs.org/grunt-open
+479 verbose request where is /sass-loader
+480 verbose request registry https://registry.npmjs.org/
+481 verbose url raw /sass-loader
+482 verbose url resolving [ 'https://registry.npmjs.org/', './sass-loader' ]
+483 verbose url resolved https://registry.npmjs.org/sass-loader
+484 verbose request where is https://registry.npmjs.org/sass-loader
+485 info trying registry request attempt 1 at 22:40:20
+486 verbose etag "AZR6BHJSALT5FR1HD59ETRXF4"
+487 http GET https://registry.npmjs.org/sass-loader
+488 verbose request where is /grunt-contrib-clean
+489 verbose request registry https://registry.npmjs.org/
+490 verbose url raw /grunt-contrib-clean
+491 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-clean' ]
+492 verbose url resolved https://registry.npmjs.org/grunt-contrib-clean
+493 verbose request where is https://registry.npmjs.org/grunt-contrib-clean
+494 info trying registry request attempt 1 at 22:40:20
+495 verbose etag "2FBLHFZX5VK8P9YZ36QGSJQXV"
+496 http GET https://registry.npmjs.org/grunt-contrib-clean
+497 verbose request where is /react-hot-loader
+498 verbose request registry https://registry.npmjs.org/
+499 verbose url raw /react-hot-loader
+500 verbose url resolving [ 'https://registry.npmjs.org/', './react-hot-loader' ]
+501 verbose url resolved https://registry.npmjs.org/react-hot-loader
+502 verbose request where is https://registry.npmjs.org/react-hot-loader
+503 info trying registry request attempt 1 at 22:40:20
+504 verbose etag "33VC4LFNU2HEF58TI7HWC2TH5"
+505 http GET https://registry.npmjs.org/react-hot-loader
+506 verbose request where is /webpack-dev-server
+507 verbose request registry https://registry.npmjs.org/
+508 verbose url raw /webpack-dev-server
+509 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-dev-server' ]
+510 verbose url resolved https://registry.npmjs.org/webpack-dev-server
+511 verbose request where is https://registry.npmjs.org/webpack-dev-server
+512 info trying registry request attempt 1 at 22:40:20
+513 verbose etag "6P7JVDZUG0TUYTA4N93EZWD0Y"
+514 http GET https://registry.npmjs.org/webpack-dev-server
+515 verbose request where is /grunt-contrib-copy
+516 verbose request registry https://registry.npmjs.org/
+517 verbose url raw /grunt-contrib-copy
+518 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-copy' ]
+519 verbose url resolved https://registry.npmjs.org/grunt-contrib-copy
+520 verbose request where is https://registry.npmjs.org/grunt-contrib-copy
+521 info trying registry request attempt 1 at 22:40:22
+522 verbose etag "6AP11BYFAUTO2KJVRSF7YLXW9"
+523 http GET https://registry.npmjs.org/grunt-contrib-copy
+524 verbose request where is /karma
+525 verbose request registry https://registry.npmjs.org/
+526 verbose url raw /karma
+527 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
+528 verbose url resolved https://registry.npmjs.org/karma
+529 verbose request where is https://registry.npmjs.org/karma
+530 info trying registry request attempt 1 at 22:40:22
+531 verbose etag "5NR3IKQ0VJY78PFEOB4WWULIM"
+532 http GET https://registry.npmjs.org/karma
+533 verbose request where is /webpack
+534 verbose request registry https://registry.npmjs.org/
+535 verbose url raw /webpack
+536 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+537 verbose url resolved https://registry.npmjs.org/webpack
+538 verbose request where is https://registry.npmjs.org/webpack
+539 info trying registry request attempt 1 at 22:40:22
+540 verbose etag "1IG87AIHGII2I0Y44DCSAMDLP"
+541 http GET https://registry.npmjs.org/webpack
+542 http 200 https://registry.npmjs.org/babel-loader
+543 silly registry.get cb [ 200,
+543 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+543 silly registry.get     etag: '"AEY537SKEM4GJTVCUWJ29WMX9"',
+543 silly registry.get     'content-type': 'application/json',
+543 silly registry.get     'cache-control': 'max-age=60',
+543 silly registry.get     'content-length': '29108',
+543 silly registry.get     'accept-ranges': 'bytes',
+543 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+543 silly registry.get     via: '1.1 varnish',
+543 silly registry.get     age: '0',
+543 silly registry.get     connection: 'keep-alive',
+543 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+543 silly registry.get     'x-cache': 'HIT',
+543 silly registry.get     'x-cache-hits': '1',
+543 silly registry.get     'x-timer': 'S1441690823.317645,VS0,VE65',
+543 silly registry.get     vary: 'Accept' } ]
+544 http 200 https://registry.npmjs.org/grunt
+545 silly registry.get cb [ 200,
+545 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+545 silly registry.get     etag: '"7S64CUGDBX3L62NM1BZJ41Q6D"',
+545 silly registry.get     'content-type': 'application/json',
+545 silly registry.get     'cache-control': 'max-age=60',
+545 silly registry.get     'content-length': '90189',
+545 silly registry.get     'accept-ranges': 'bytes',
+545 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+545 silly registry.get     via: '1.1 varnish',
+545 silly registry.get     age: '29',
+545 silly registry.get     connection: 'keep-alive',
+545 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+545 silly registry.get     'x-cache': 'HIT',
+545 silly registry.get     'x-cache-hits': '1',
+545 silly registry.get     'x-timer': 'S1441690823.250918,VS0,VE0',
+545 silly registry.get     vary: 'Accept' } ]
+546 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: true }
+547 silly addNameRange versions [ 'grunt',
+547 silly addNameRange   [ '0.1.0',
+547 silly addNameRange     '0.1.1',
+547 silly addNameRange     '0.1.2',
+547 silly addNameRange     '0.2.0',
+547 silly addNameRange     '0.2.1',
+547 silly addNameRange     '0.2.2',
+547 silly addNameRange     '0.2.3',
+547 silly addNameRange     '0.2.4',
+547 silly addNameRange     '0.2.5',
+547 silly addNameRange     '0.2.6',
+547 silly addNameRange     '0.2.7',
+547 silly addNameRange     '0.2.8',
+547 silly addNameRange     '0.2.9',
+547 silly addNameRange     '0.2.10',
+547 silly addNameRange     '0.2.11',
+547 silly addNameRange     '0.2.12',
+547 silly addNameRange     '0.2.13',
+547 silly addNameRange     '0.2.14',
+547 silly addNameRange     '0.2.15',
+547 silly addNameRange     '0.3.0',
+547 silly addNameRange     '0.3.1',
+547 silly addNameRange     '0.3.2',
+547 silly addNameRange     '0.3.3',
+547 silly addNameRange     '0.3.4',
+547 silly addNameRange     '0.3.5',
+547 silly addNameRange     '0.3.6',
+547 silly addNameRange     '0.3.7',
+547 silly addNameRange     '0.3.8',
+547 silly addNameRange     '0.3.9',
+547 silly addNameRange     '0.3.10',
+547 silly addNameRange     '0.3.11',
+547 silly addNameRange     '0.3.12',
+547 silly addNameRange     '0.3.13',
+547 silly addNameRange     '0.3.14',
+547 silly addNameRange     '0.3.15',
+547 silly addNameRange     '0.3.16',
+547 silly addNameRange     '0.3.17',
+547 silly addNameRange     '0.4.0',
+547 silly addNameRange     '0.4.1',
+547 silly addNameRange     '0.4.2',
+547 silly addNameRange     '0.4.3',
+547 silly addNameRange     '0.4.4',
+547 silly addNameRange     '0.4.5',
+547 silly addNameRange     '0.3.13-a',
+547 silly addNameRange     '0.4.0-a',
+547 silly addNameRange     '0.4.0-rc1',
+547 silly addNameRange     '0.4.0-rc2',
+547 silly addNameRange     '0.4.0-rc3',
+547 silly addNameRange     '0.4.0-rc4',
+547 silly addNameRange     '0.4.0-rc5',
+547 silly addNameRange     '0.4.0-rc6',
+547 silly addNameRange     '0.4.0-rc7',
+547 silly addNameRange     '0.4.0-rc8' ] ]
+548 verbose addNamed [ 'grunt', '0.4.5' ]
+549 verbose addNamed [ '0.4.5', '0.4.5' ]
+550 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+551 verbose lock grunt@0.4.5 /home/brando/.npm/81abf7ad-grunt-0-4-5.lock
+552 silly addNameRange number 2 { name: 'babel-loader',
+552 silly addNameRange   range: '>=5.0.0-0 <6.0.0-0',
+552 silly addNameRange   hasData: true }
+553 silly addNameRange versions [ 'babel-loader',
+553 silly addNameRange   [ '4.0.0',
+553 silly addNameRange     '4.1.0',
+553 silly addNameRange     '4.2.0',
+553 silly addNameRange     '4.3.0',
+553 silly addNameRange     '5.0.0',
+553 silly addNameRange     '5.1.0',
+553 silly addNameRange     '5.1.2',
+553 silly addNameRange     '5.1.3',
+553 silly addNameRange     '5.1.4',
+553 silly addNameRange     '5.2.0',
+553 silly addNameRange     '5.2.1',
+553 silly addNameRange     '5.2.2',
+553 silly addNameRange     '5.3.0',
+553 silly addNameRange     '5.3.1',
+553 silly addNameRange     '5.3.2' ] ]
+554 verbose addNamed [ 'babel-loader', '5.3.2' ]
+555 verbose addNamed [ '5.3.2', '5.3.2' ]
+556 silly lockFile 5fba6876-babel-loader-5-3-2 babel-loader@5.3.2
+557 verbose lock babel-loader@5.3.2 /home/brando/.npm/5fba6876-babel-loader-5-3-2.lock
+558 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+559 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+560 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+561 silly lockFile 240974bb-grunt-0-4-5 grunt@~0.4.5
+562 silly lockFile 5fba6876-babel-loader-5-3-2 babel-loader@5.3.2
+563 silly lockFile 5fba6876-babel-loader-5-3-2 babel-loader@5.3.2
+564 silly lockFile db4ca65a-babel-loader-5-0-0 babel-loader@^5.0.0
+565 silly lockFile db4ca65a-babel-loader-5-0-0 babel-loader@^5.0.0
+566 http 200 https://registry.npmjs.org/eslint
+567 silly registry.get cb [ 200,
+567 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+567 silly registry.get     etag: '"198C6YKJ8WY8WC6YBOG1WG2TU"',
+567 silly registry.get     'content-type': 'application/json',
+567 silly registry.get     'cache-control': 'max-age=60',
+567 silly registry.get     'content-length': '163012',
+567 silly registry.get     'accept-ranges': 'bytes',
+567 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+567 silly registry.get     via: '1.1 varnish',
+567 silly registry.get     age: '0',
+567 silly registry.get     connection: 'keep-alive',
+567 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+567 silly registry.get     'x-cache': 'HIT',
+567 silly registry.get     'x-cache-hits': '1',
+567 silly registry.get     'x-timer': 'S1441690823.291819,VS0,VE46',
+567 silly registry.get     vary: 'Accept' } ]
+568 http 200 https://registry.npmjs.org/normalize.css
+569 silly registry.get cb [ 200,
+569 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+569 silly registry.get     etag: '"CU7Q5BKY6I1WMNFOAPCB3NBQW"',
+569 silly registry.get     'content-type': 'application/json',
+569 silly registry.get     'cache-control': 'max-age=60',
+569 silly registry.get     'content-length': '7741',
+569 silly registry.get     'accept-ranges': 'bytes',
+569 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+569 silly registry.get     via: '1.1 varnish',
+569 silly registry.get     age: '0',
+569 silly registry.get     connection: 'keep-alive',
+569 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+569 silly registry.get     'x-cache': 'MISS',
+569 silly registry.get     'x-cache-hits': '0',
+569 silly registry.get     'x-timer': 'S1441690823.682453,VS0,VE260',
+569 silly registry.get     vary: 'Accept' } ]
+570 silly addNameRange number 2 { name: 'eslint', range: '>=0.21.2-0 <0.22.0-0', hasData: true }
+571 silly addNameRange versions [ 'eslint',
+571 silly addNameRange   [ '0.0.4',
+571 silly addNameRange     '0.0.5',
+571 silly addNameRange     '0.0.6',
+571 silly addNameRange     '0.0.7',
+571 silly addNameRange     '0.1.0-dev',
+571 silly addNameRange     '0.1.0',
+571 silly addNameRange     '0.1.1',
+571 silly addNameRange     '0.1.2',
+571 silly addNameRange     '0.1.3',
+571 silly addNameRange     '0.1.4',
+571 silly addNameRange     '0.2.0',
+571 silly addNameRange     '0.3.0',
+571 silly addNameRange     '0.4.0',
+571 silly addNameRange     '0.4.1',
+571 silly addNameRange     '0.4.2',
+571 silly addNameRange     '0.4.3',
+571 silly addNameRange     '0.4.4',
+571 silly addNameRange     '0.4.5',
+571 silly addNameRange     '0.5.0',
+571 silly addNameRange     '0.5.1',
+571 silly addNameRange     '0.6.0',
+571 silly addNameRange     '0.6.1',
+571 silly addNameRange     '0.6.2',
+571 silly addNameRange     '0.7.1',
+571 silly addNameRange     '0.7.2',
+571 silly addNameRange     '0.7.3',
+571 silly addNameRange     '0.7.4',
+571 silly addNameRange     '0.8.0',
+571 silly addNameRange     '0.8.1',
+571 silly addNameRange     '0.8.2',
+571 silly addNameRange     '0.9.0',
+571 silly addNameRange     '0.9.1',
+571 silly addNameRange     '0.9.2',
+571 silly addNameRange     '0.10.0-alpha',
+571 silly addNameRange     '0.10.0-alpha.1',
+571 silly addNameRange     '0.10.0-alpha.2',
+571 silly addNameRange     '0.10.0',
+571 silly addNameRange     '0.11.0-alpha.0',
+571 silly addNameRange     '0.10.1',
+571 silly addNameRange     '0.10.2',
+571 silly addNameRange     '0.11.0',
+571 silly addNameRange     '0.12.0',
+571 silly addNameRange     '0.13.0',
+571 silly addNameRange     '0.14.0',
+571 silly addNameRange     '0.14.1',
+571 silly addNameRange     '0.15.0',
+571 silly addNameRange     '0.15.1',
+571 silly addNameRange     '0.16.0',
+571 silly addNameRange     '0.16.1',
+571 silly addNameRange     '0.16.2',
+571 silly addNameRange     '0.17.0',
+571 silly addNameRange     '0.17.1',
+571 silly addNameRange     '0.18.0',
+571 silly addNameRange     '0.19.0',
+571 silly addNameRange     '0.20.0',
+571 silly addNameRange     '0.21.0',
+571 silly addNameRange     '0.21.1',
+571 silly addNameRange     '0.21.2',
+571 silly addNameRange     '0.22.0',
+571 silly addNameRange     '0.22.1',
+571 silly addNameRange     '0.23.0',
+571 silly addNameRange     '0.24.0',
+571 silly addNameRange     '0.24.1',
+571 silly addNameRange     '1.0.0-rc-1',
+571 silly addNameRange     '1.0.0-rc-2',
+571 silly addNameRange     '1.0.0-rc-3',
+571 silly addNameRange     '1.0.0',
+571 silly addNameRange     '1.1.0',
+571 silly addNameRange     '1.2.0',
+571 silly addNameRange     '1.2.1',
+571 silly addNameRange     '1.3.0',
+571 silly addNameRange     '1.3.1' ] ]
+572 verbose addNamed [ 'eslint', '0.21.2' ]
+573 verbose addNamed [ '0.21.2', '0.21.2' ]
+574 silly lockFile 13f6dfc7-eslint-0-21-2 eslint@0.21.2
+575 verbose lock eslint@0.21.2 /home/brando/.npm/13f6dfc7-eslint-0-21-2.lock
+576 silly addNameRange number 2 { name: 'normalize.css',
+576 silly addNameRange   range: '>=3.0.3-0 <3.1.0-0',
+576 silly addNameRange   hasData: true }
+577 silly addNameRange versions [ 'normalize.css', [ '0.0.1', '3.0.1', '3.0.2', '3.0.3' ] ]
+578 verbose addNamed [ 'normalize.css', '3.0.3' ]
+579 verbose addNamed [ '3.0.3', '3.0.3' ]
+580 silly lockFile 95d20208-normalize-css-3-0-3 normalize.css@3.0.3
+581 verbose lock normalize.css@3.0.3 /home/brando/.npm/95d20208-normalize-css-3-0-3.lock
+582 http 200 https://registry.npmjs.org/react
+583 silly registry.get cb [ 200,
+583 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+583 silly registry.get     etag: '"AG6EMGZTQPMAI6KN51EU4SRSY"',
+583 silly registry.get     'content-type': 'application/json',
+583 silly registry.get     'cache-control': 'max-age=60',
+583 silly registry.get     'content-length': '66988',
+583 silly registry.get     'accept-ranges': 'bytes',
+583 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+583 silly registry.get     via: '1.1 varnish',
+583 silly registry.get     age: '0',
+583 silly registry.get     connection: 'keep-alive',
+583 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+583 silly registry.get     'x-cache': 'HIT',
+583 silly registry.get     'x-cache-hits': '1',
+583 silly registry.get     'x-timer': 'S1441690823.325206,VS0,VE272',
+583 silly registry.get     vary: 'Accept' } ]
+584 silly addNameRange number 2 { name: 'react', range: '>=0.13.0-0 <0.14.0-0', hasData: true }
+585 silly addNameRange versions [ 'react',
+585 silly addNameRange   [ '0.0.1',
+585 silly addNameRange     '0.0.2',
+585 silly addNameRange     '0.0.3',
+585 silly addNameRange     '0.1.2',
+585 silly addNameRange     '0.2.0',
+585 silly addNameRange     '0.2.1',
+585 silly addNameRange     '0.2.2',
+585 silly addNameRange     '0.2.3',
+585 silly addNameRange     '0.2.4',
+585 silly addNameRange     '0.2.5',
+585 silly addNameRange     '0.2.6',
+585 silly addNameRange     '0.3.0',
+585 silly addNameRange     '0.3.4',
+585 silly addNameRange     '0.3.5',
+585 silly addNameRange     '0.5.0',
+585 silly addNameRange     '0.5.1',
+585 silly addNameRange     '0.5.2',
+585 silly addNameRange     '0.6.0',
+585 silly addNameRange     '0.6.1',
+585 silly addNameRange     '0.6.2',
+585 silly addNameRange     '0.6.3',
+585 silly addNameRange     '0.7.0',
+585 silly addNameRange     '0.7.1',
+585 silly addNameRange     '0.8.0',
+585 silly addNameRange     '0.9.0-rc1',
+585 silly addNameRange     '0.9.0',
+585 silly addNameRange     '0.10.0-rc1',
+585 silly addNameRange     '0.10.0',
+585 silly addNameRange     '0.11.0-rc1',
+585 silly addNameRange     '0.11.0',
+585 silly addNameRange     '0.11.1',
+585 silly addNameRange     '0.11.2',
+585 silly addNameRange     '0.12.0-rc1',
+585 silly addNameRange     '0.12.0',
+585 silly addNameRange     '0.12.1',
+585 silly addNameRange     '0.12.2',
+585 silly addNameRange     '0.13.0-alpha.1',
+585 silly addNameRange     '0.13.0-alpha.2',
+585 silly addNameRange     '0.13.0-beta.1',
+585 silly addNameRange     '0.13.0-beta.2',
+585 silly addNameRange     '0.13.0-rc1',
+585 silly addNameRange     '0.13.0-rc2',
+585 silly addNameRange     '0.13.0',
+585 silly addNameRange     '0.13.1',
+585 silly addNameRange     '0.13.2',
+585 silly addNameRange     '0.13.3',
+585 silly addNameRange     '0.14.0-alpha1',
+585 silly addNameRange     '0.14.0-alpha2',
+585 silly addNameRange     '0.14.0-alpha3',
+585 silly addNameRange     '0.14.0-beta1',
+585 silly addNameRange     '0.14.0-beta2',
+585 silly addNameRange     '0.14.0-beta3' ] ]
+586 verbose addNamed [ 'react', '0.13.3' ]
+587 verbose addNamed [ '0.13.3', '0.13.3' ]
+588 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+589 verbose lock react@0.13.3 /home/brando/.npm/e90fbd15-react-0-13-3.lock
+590 http 200 https://registry.npmjs.org/babel
+591 silly registry.get cb [ 200,
+591 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+591 silly registry.get     etag: '"3M9O7KMEXIUVF38R6NE0EBZXI"',
+591 silly registry.get     'content-type': 'application/json',
+591 silly registry.get     'cache-control': 'max-age=60',
+591 silly registry.get     'content-length': '209545',
+591 silly registry.get     'accept-ranges': 'bytes',
+591 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+591 silly registry.get     via: '1.1 varnish',
+591 silly registry.get     age: '0',
+591 silly registry.get     connection: 'keep-alive',
+591 silly registry.get     'x-served-by': 'cache-dfw1820-DFW',
+591 silly registry.get     'x-cache': 'MISS',
+591 silly registry.get     'x-cache-hits': '0',
+591 silly registry.get     'x-timer': 'S1441690823.257889,VS0,VE65',
+591 silly registry.get     vary: 'Accept' } ]
+592 silly addNameRange number 2 { name: 'babel', range: '>=5.0.0-0 <6.0.0-0', hasData: true }
+593 silly addNameRange versions [ 'babel',
+593 silly addNameRange   [ '0.0.1',
+593 silly addNameRange     '4.0.1',
+593 silly addNameRange     '4.0.2',
+593 silly addNameRange     '4.1.1',
+593 silly addNameRange     '4.2.0',
+593 silly addNameRange     '4.2.1',
+593 silly addNameRange     '4.3.0',
+593 silly addNameRange     '4.4.1',
+593 silly addNameRange     '4.4.2',
+593 silly addNameRange     '4.4.3',
+593 silly addNameRange     '4.4.4',
+593 silly addNameRange     '4.4.5',
+593 silly addNameRange     '4.4.6',
+593 silly addNameRange     '4.5.0',
+593 silly addNameRange     '4.5.1',
+593 silly addNameRange     '4.5.2',
+593 silly addNameRange     '4.5.3',
+593 silly addNameRange     '4.5.4',
+593 silly addNameRange     '4.5.5',
+593 silly addNameRange     '4.6.0',
+593 silly addNameRange     '4.6.1',
+593 silly addNameRange     '4.6.3',
+593 silly addNameRange     '4.6.4',
+593 silly addNameRange     '4.6.5',
+593 silly addNameRange     '4.6.6',
+593 silly addNameRange     '4.7.0',
+593 silly addNameRange     '4.7.1',
+593 silly addNameRange     '4.7.2',
+593 silly addNameRange     '4.7.3',
+593 silly addNameRange     '4.7.4',
+593 silly addNameRange     '4.7.5',
+593 silly addNameRange     '4.7.6',
+593 silly addNameRange     '4.7.7',
+593 silly addNameRange     '4.7.8',
+593 silly addNameRange     '4.7.9',
+593 silly addNameRange     '4.7.10',
+593 silly addNameRange     '4.7.11',
+593 silly addNameRange     '4.7.12',
+593 silly addNameRange     '4.7.13',
+593 silly addNameRange     '4.7.14',
+593 silly addNameRange     '4.7.15',
+593 silly addNameRange     '4.7.16',
+593 silly addNameRange     '5.0.0-beta2',
+593 silly addNameRange     '5.0.0-beta3',
+593 silly addNameRange     '5.0.0-beta4',
+593 silly addNameRange     '5.0.0',
+593 silly addNameRange     '5.0.1',
+593 silly addNameRange     '5.0.2',
+593 silly addNameRange     '5.0.3',
+593 silly addNameRange     '5.0.4',
+593 silly addNameRange     '5.0.5',
+593 silly addNameRange     '5.0.6',
+593 silly addNameRange     '5.0.7',
+593 silly addNameRange     '5.0.8',
+593 silly addNameRange     '5.0.9',
+593 silly addNameRange     '5.0.10',
+593 silly addNameRange     '5.0.11',
+593 silly addNameRange     '5.0.12',
+593 silly addNameRange     '5.0.13',
+593 silly addNameRange     '5.1.0',
+593 silly addNameRange     '5.1.1',
+593 silly addNameRange     '5.1.2',
+593 silly addNameRange     '5.1.3',
+593 silly addNameRange     '5.1.4',
+593 silly addNameRange     '5.1.5',
+593 silly addNameRange     '5.1.6',
+593 silly addNameRange     '5.1.7',
+593 silly addNameRange     '5.1.8',
+593 silly addNameRange     '5.1.9',
+593 silly addNameRange     '5.1.10',
+593 silly addNameRange     '5.1.11',
+593 silly addNameRange     '5.1.12',
+593 silly addNameRange     '5.1.13',
+593 silly addNameRange     '5.2.0',
+593 silly addNameRange     '5.2.1',
+593 silly addNameRange     '5.2.2',
+593 silly addNameRange     '5.2.3',
+593 silly addNameRange     '5.2.4',
+593 silly addNameRange     '5.2.5',
+593 silly addNameRange     '5.2.6',
+593 silly addNameRange     '5.2.7',
+593 silly addNameRange     '5.2.9',
+593 silly addNameRange     '5.2.10',
+593 silly addNameRange     '5.2.11',
+593 silly addNameRange     '5.2.12',
+593 silly addNameRange     '5.2.13',
+593 silly addNameRange     '5.2.14',
+593 silly addNameRange     '5.2.15',
+593 silly addNameRange     '5.2.16',
+593 silly addNameRange     '5.2.17',
+593 silly addNameRange     '5.3.0',
+593 silly addNameRange     '5.3.1',
+593 silly addNameRange     '5.3.2',
+593 silly addNameRange     '5.3.3',
+593 silly addNameRange     '5.4.0',
+593 silly addNameRange     '5.4.1',
+593 silly addNameRange     '5.4.2',
+593 silly addNameRange     '5.4.3',
+593 silly addNameRange     '5.4.4',
+593 silly addNameRange     '5.4.5',
+593 silly addNameRange     '5.4.6',
+593 silly addNameRange     '5.4.7',
+593 silly addNameRange     '5.5.0',
+593 silly addNameRange     '5.5.1',
+593 silly addNameRange     '5.5.2',
+593 silly addNameRange     '5.5.3',
+593 silly addNameRange     '5.5.4',
+593 silly addNameRange     '5.5.5',
+593 silly addNameRange     '5.5.6',
+593 silly addNameRange     '5.5.7',
+593 silly addNameRange     '5.5.8',
+593 silly addNameRange     '5.6.1',
+593 silly addNameRange     '5.6.2',
+593 silly addNameRange     '5.6.3',
+593 silly addNameRange     '5.6.4',
+593 silly addNameRange     '5.6.5',
+593 silly addNameRange     '5.6.6',
+593 silly addNameRange     '5.6.7',
+593 silly addNameRange     '5.6.10',
+593 silly addNameRange     '5.6.11',
+593 silly addNameRange     '5.6.12',
+593 silly addNameRange     '5.6.14',
+593 silly addNameRange     '5.6.23',
+593 silly addNameRange     '5.8.2',
+593 silly addNameRange     '5.8.3',
+593 silly addNameRange     '5.8.5',
+593 silly addNameRange     '5.8.6',
+593 silly addNameRange     '5.8.8',
+593 silly addNameRange     '5.8.9',
+593 silly addNameRange     '5.8.12',
+593 silly addNameRange     '5.8.19',
+593 silly addNameRange     '5.8.20',
+593 silly addNameRange     '5.8.21',
+593 silly addNameRange     '5.8.23' ] ]
+594 verbose addNamed [ 'babel', '5.8.23' ]
+595 verbose addNamed [ '5.8.23', '5.8.23' ]
+596 silly lockFile e71331eb-babel-5-8-23 babel@5.8.23
+597 verbose lock babel@5.8.23 /home/brando/.npm/e71331eb-babel-5-8-23.lock
+598 silly lockFile 2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+599 verbose lock https://registry.npmjs.org/babel/-/babel-5.8.23.tgz /home/brando/.npm/2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz.lock
+600 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel/-/babel-5.8.23.tgz',
+600 verbose addRemoteTarball   'ccfc3fbb173ca2442f455d67793c28fd2a197d5d' ]
+601 info retry fetch attempt 1 at 22:40:24
+602 verbose fetch to= /tmp/npm-17326-9SptJKZh/registry.npmjs.org/babel/-/babel-5.8.23.tgz
+603 http GET https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+604 silly lockFile 13f6dfc7-eslint-0-21-2 eslint@0.21.2
+605 silly lockFile 13f6dfc7-eslint-0-21-2 eslint@0.21.2
+606 silly lockFile a8f42e7c-eslint-0-21-2 eslint@^0.21.2
+607 silly lockFile a8f42e7c-eslint-0-21-2 eslint@^0.21.2
+608 silly lockFile 95d20208-normalize-css-3-0-3 normalize.css@3.0.3
+609 silly lockFile 95d20208-normalize-css-3-0-3 normalize.css@3.0.3
+610 silly lockFile d2e9a4cb-normalize-css-3-0-3 normalize.css@~3.0.3
+611 silly lockFile d2e9a4cb-normalize-css-3-0-3 normalize.css@~3.0.3
+612 http 200 https://registry.npmjs.org/eslint-plugin-react
+613 silly registry.get cb [ 200,
+613 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+613 silly registry.get     etag: '"E6DK6W18OKUE5I604FPVBLZG7"',
+613 silly registry.get     'content-type': 'application/json',
+613 silly registry.get     'cache-control': 'max-age=60',
+613 silly registry.get     'content-length': '64381',
+613 silly registry.get     'accept-ranges': 'bytes',
+613 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:23 GMT',
+613 silly registry.get     via: '1.1 varnish',
+613 silly registry.get     age: '0',
+613 silly registry.get     connection: 'keep-alive',
+613 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+613 silly registry.get     'x-cache': 'MISS',
+613 silly registry.get     'x-cache-hits': '0',
+613 silly registry.get     'x-timer': 'S1441690823.836535,VS0,VE47',
+613 silly registry.get     vary: 'Accept' } ]
+614 silly addNameRange number 2 { name: 'eslint-plugin-react',
+614 silly addNameRange   range: '>=2.4.0-0 <3.0.0-0',
+614 silly addNameRange   hasData: true }
+615 silly addNameRange versions [ 'eslint-plugin-react',
+615 silly addNameRange   [ '1.0.0',
+615 silly addNameRange     '1.1.0',
+615 silly addNameRange     '1.2.0',
+615 silly addNameRange     '1.2.1',
+615 silly addNameRange     '1.2.2',
+615 silly addNameRange     '1.3.0',
+615 silly addNameRange     '1.4.0',
+615 silly addNameRange     '1.4.1',
+615 silly addNameRange     '1.5.0',
+615 silly addNameRange     '1.6.0',
+615 silly addNameRange     '1.6.1',
+615 silly addNameRange     '2.0.0',
+615 silly addNameRange     '2.0.1',
+615 silly addNameRange     '2.0.2',
+615 silly addNameRange     '2.1.0',
+615 silly addNameRange     '2.1.1',
+615 silly addNameRange     '2.2.0',
+615 silly addNameRange     '2.3.0',
+615 silly addNameRange     '2.4.0',
+615 silly addNameRange     '2.5.0',
+615 silly addNameRange     '2.5.1',
+615 silly addNameRange     '2.5.2',
+615 silly addNameRange     '2.6.0',
+615 silly addNameRange     '2.6.1',
+615 silly addNameRange     '2.6.2',
+615 silly addNameRange     '2.6.3',
+615 silly addNameRange     '2.6.4',
+615 silly addNameRange     '2.7.0',
+615 silly addNameRange     '2.7.1',
+615 silly addNameRange     '3.0.0',
+615 silly addNameRange     '3.1.0',
+615 silly addNameRange     '3.2.0',
+615 silly addNameRange     '3.2.1',
+615 silly addNameRange     '3.2.2',
+615 silly addNameRange     '3.2.3',
+615 silly addNameRange     '3.3.0',
+615 silly addNameRange     '3.3.1' ] ]
+616 verbose addNamed [ 'eslint-plugin-react', '2.7.1' ]
+617 verbose addNamed [ '2.7.1', '2.7.1' ]
+618 silly lockFile bb9afcee-eslint-plugin-react-2-7-1 eslint-plugin-react@2.7.1
+619 verbose lock eslint-plugin-react@2.7.1 /home/brando/.npm/bb9afcee-eslint-plugin-react-2-7-1.lock
+620 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+621 silly lockFile e90fbd15-react-0-13-3 react@0.13.3
+622 silly lockFile 96c6da0d-react-0-13-x react@0.13.x
+623 silly lockFile 96c6da0d-react-0-13-x react@0.13.x
+624 http 200 https://registry.npmjs.org/jasmine-core
+625 silly registry.get cb [ 200,
+625 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+625 silly registry.get     etag: '"BOWYZ4DOJWECYKV7JG6WOSNP0"',
+625 silly registry.get     'content-type': 'application/json',
+625 silly registry.get     'cache-control': 'max-age=60',
+625 silly registry.get     'content-length': '19614',
+625 silly registry.get     'accept-ranges': 'bytes',
+625 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+625 silly registry.get     via: '1.1 varnish',
+625 silly registry.get     age: '19',
+625 silly registry.get     connection: 'keep-alive',
+625 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+625 silly registry.get     'x-cache': 'HIT',
+625 silly registry.get     'x-cache-hits': '2',
+625 silly registry.get     'x-timer': 'S1441690824.178380,VS0,VE0',
+625 silly registry.get     vary: 'Accept' } ]
+626 silly addNameRange number 2 { name: 'jasmine-core',
+626 silly addNameRange   range: '>=2.3.4-0 <3.0.0-0',
+626 silly addNameRange   hasData: true }
+627 silly addNameRange versions [ 'jasmine-core',
+627 silly addNameRange   [ '2.0.0',
+627 silly addNameRange     '2.0.1',
+627 silly addNameRange     '2.0.4',
+627 silly addNameRange     '2.1.0',
+627 silly addNameRange     '2.1.1',
+627 silly addNameRange     '2.1.2',
+627 silly addNameRange     '2.1.3',
+627 silly addNameRange     '2.2.0',
+627 silly addNameRange     '2.3.0',
+627 silly addNameRange     '2.3.2',
+627 silly addNameRange     '2.3.3',
+627 silly addNameRange     '2.3.4' ] ]
+628 verbose addNamed [ 'jasmine-core', '2.3.4' ]
+629 verbose addNamed [ '2.3.4', '2.3.4' ]
+630 silly lockFile c7eacfd7-jasmine-core-2-3-4 jasmine-core@2.3.4
+631 verbose lock jasmine-core@2.3.4 /home/brando/.npm/c7eacfd7-jasmine-core-2-3-4.lock
+632 silly lockFile bb9afcee-eslint-plugin-react-2-7-1 eslint-plugin-react@2.7.1
+633 silly lockFile bb9afcee-eslint-plugin-react-2-7-1 eslint-plugin-react@2.7.1
+634 silly lockFile 80675104-eslint-plugin-react-2-4-0 eslint-plugin-react@^2.4.0
+635 silly lockFile 80675104-eslint-plugin-react-2-4-0 eslint-plugin-react@^2.4.0
+636 silly lockFile c7eacfd7-jasmine-core-2-3-4 jasmine-core@2.3.4
+637 silly lockFile c7eacfd7-jasmine-core-2-3-4 jasmine-core@2.3.4
+638 silly lockFile a159a41e-jasmine-core-2-3-4 jasmine-core@^2.3.4
+639 silly lockFile a159a41e-jasmine-core-2-3-4 jasmine-core@^2.3.4
+640 http 200 https://registry.npmjs.org/eslint-loader
+641 silly registry.get cb [ 200,
+641 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+641 silly registry.get     etag: '"161ZIUP6WPLAXY2IW0V6KE08C"',
+641 silly registry.get     'content-type': 'application/json',
+641 silly registry.get     'cache-control': 'max-age=60',
+641 silly registry.get     'content-length': '29642',
+641 silly registry.get     'accept-ranges': 'bytes',
+641 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+641 silly registry.get     via: '1.1 varnish',
+641 silly registry.get     age: '0',
+641 silly registry.get     connection: 'keep-alive',
+641 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+641 silly registry.get     'x-cache': 'HIT',
+641 silly registry.get     'x-cache-hits': '1',
+641 silly registry.get     'x-timer': 'S1441690824.162795,VS0,VE46',
+641 silly registry.get     vary: 'Accept' } ]
+642 silly addNameRange number 2 { name: 'eslint-loader',
+642 silly addNameRange   range: '>=0.11.2-0 <0.12.0-0',
+642 silly addNameRange   hasData: true }
+643 silly addNameRange versions [ 'eslint-loader',
+643 silly addNameRange   [ '0.1.0',
+643 silly addNameRange     '0.2.0',
+643 silly addNameRange     '0.2.1',
+643 silly addNameRange     '0.3.0',
+643 silly addNameRange     '0.4.0',
+643 silly addNameRange     '0.5.0',
+643 silly addNameRange     '0.6.0',
+643 silly addNameRange     '0.7.0',
+643 silly addNameRange     '0.8.0',
+643 silly addNameRange     '0.9.0',
+643 silly addNameRange     '0.10.0',
+643 silly addNameRange     '0.11.0',
+643 silly addNameRange     '0.11.1',
+643 silly addNameRange     '0.11.2',
+643 silly addNameRange     '0.12.0',
+643 silly addNameRange     '0.13.0',
+643 silly addNameRange     '0.14.0',
+643 silly addNameRange     '0.14.1',
+643 silly addNameRange     '0.14.2',
+643 silly addNameRange     '1.0.0' ] ]
+644 verbose addNamed [ 'eslint-loader', '0.11.2' ]
+645 verbose addNamed [ '0.11.2', '0.11.2' ]
+646 silly lockFile 37ddbcb2-eslint-loader-0-11-2 eslint-loader@0.11.2
+647 verbose lock eslint-loader@0.11.2 /home/brando/.npm/37ddbcb2-eslint-loader-0-11-2.lock
+648 silly lockFile 37ddbcb2-eslint-loader-0-11-2 eslint-loader@0.11.2
+649 silly lockFile 37ddbcb2-eslint-loader-0-11-2 eslint-loader@0.11.2
+650 silly lockFile 8a5375c6-eslint-loader-0-11-2 eslint-loader@^0.11.2
+651 silly lockFile 8a5375c6-eslint-loader-0-11-2 eslint-loader@^0.11.2
+652 http 200 https://registry.npmjs.org/karma-phantomjs-launcher
+653 silly registry.get cb [ 200,
+653 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+653 silly registry.get     etag: '"DURDHZMHLSTWBL2MPWESJVL16"',
+653 silly registry.get     'content-type': 'application/json',
+653 silly registry.get     'cache-control': 'max-age=60',
+653 silly registry.get     'content-length': '21378',
+653 silly registry.get     'accept-ranges': 'bytes',
+653 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+653 silly registry.get     via: '1.1 varnish',
+653 silly registry.get     age: '21',
+653 silly registry.get     connection: 'keep-alive',
+653 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+653 silly registry.get     'x-cache': 'HIT',
+653 silly registry.get     'x-cache-hits': '1',
+653 silly registry.get     'x-timer': 'S1441690824.322649,VS0,VE0',
+653 silly registry.get     vary: 'Accept' } ]
+654 silly addNameRange number 2 { name: 'karma-phantomjs-launcher',
+654 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+654 silly addNameRange   hasData: true }
+655 silly addNameRange versions [ 'karma-phantomjs-launcher',
+655 silly addNameRange   [ '0.0.1',
+655 silly addNameRange     '0.0.2',
+655 silly addNameRange     '0.0.3',
+655 silly addNameRange     '0.1.0',
+655 silly addNameRange     '0.1.1',
+655 silly addNameRange     '0.1.2',
+655 silly addNameRange     '0.1.3',
+655 silly addNameRange     '0.1.4',
+655 silly addNameRange     '0.2.0',
+655 silly addNameRange     '0.2.1' ] ]
+656 verbose addNamed [ 'karma-phantomjs-launcher', '0.1.4' ]
+657 verbose addNamed [ '0.1.4', '0.1.4' ]
+658 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+659 verbose lock karma-phantomjs-launcher@0.1.4 /home/brando/.npm/5b4ecc13-karma-phantomjs-launcher-0-1-4.lock
+660 http 200 https://registry.npmjs.org/karma-jasmine
+661 silly registry.get cb [ 200,
+661 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+661 silly registry.get     etag: '"89BCRPEMUUUYIOOLABS2B5PA2"',
+661 silly registry.get     'content-type': 'application/json',
+661 silly registry.get     'cache-control': 'max-age=60',
+661 silly registry.get     'content-length': '35086',
+661 silly registry.get     'accept-ranges': 'bytes',
+661 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+661 silly registry.get     via: '1.1 varnish',
+661 silly registry.get     age: '44',
+661 silly registry.get     connection: 'keep-alive',
+661 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+661 silly registry.get     'x-cache': 'HIT',
+661 silly registry.get     'x-cache-hits': '1',
+661 silly registry.get     'x-timer': 'S1441690824.354422,VS0,VE0',
+661 silly registry.get     vary: 'Accept' } ]
+662 silly addNameRange number 2 { name: 'karma-jasmine',
+662 silly addNameRange   range: '>=0.3.5-0 <0.4.0-0',
+662 silly addNameRange   hasData: true }
+663 silly addNameRange versions [ 'karma-jasmine',
+663 silly addNameRange   [ '0.0.1',
+663 silly addNameRange     '0.0.2',
+663 silly addNameRange     '0.0.3',
+663 silly addNameRange     '0.1.0',
+663 silly addNameRange     '0.1.1',
+663 silly addNameRange     '0.1.2',
+663 silly addNameRange     '0.1.3',
+663 silly addNameRange     '0.1.4',
+663 silly addNameRange     '0.1.5',
+663 silly addNameRange     '0.2.0',
+663 silly addNameRange     '0.2.1',
+663 silly addNameRange     '0.2.2',
+663 silly addNameRange     '0.2.3',
+663 silly addNameRange     '0.3.0',
+663 silly addNameRange     '0.3.1',
+663 silly addNameRange     '0.3.2',
+663 silly addNameRange     '0.3.3',
+663 silly addNameRange     '0.3.4',
+663 silly addNameRange     '0.3.5',
+663 silly addNameRange     '0.3.6',
+663 silly addNameRange     '0.1.6' ] ]
+664 verbose addNamed [ 'karma-jasmine', '0.3.6' ]
+665 verbose addNamed [ '0.3.6', '0.3.6' ]
+666 silly lockFile 2fa33a7d-karma-jasmine-0-3-6 karma-jasmine@0.3.6
+667 verbose lock karma-jasmine@0.3.6 /home/brando/.npm/2fa33a7d-karma-jasmine-0-3-6.lock
+668 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+669 silly lockFile 5b4ecc13-karma-phantomjs-launcher-0-1-4 karma-phantomjs-launcher@0.1.4
+670 silly lockFile b256e99c-karma-phantomjs-launcher-0-1-3 karma-phantomjs-launcher@~0.1.3
+671 silly lockFile b256e99c-karma-phantomjs-launcher-0-1-3 karma-phantomjs-launcher@~0.1.3
+672 silly lockFile 2fa33a7d-karma-jasmine-0-3-6 karma-jasmine@0.3.6
+673 silly lockFile 2fa33a7d-karma-jasmine-0-3-6 karma-jasmine@0.3.6
+674 silly lockFile b0acc008-karma-jasmine-0-3-5 karma-jasmine@^0.3.5
+675 silly lockFile b0acc008-karma-jasmine-0-3-5 karma-jasmine@^0.3.5
+676 http 200 https://registry.npmjs.org/load-grunt-tasks
+677 silly registry.get cb [ 200,
+677 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+677 silly registry.get     etag: '"6VMZ5B7CMXFJSLCEDECG18HXW"',
+677 silly registry.get     'content-type': 'application/json',
+677 silly registry.get     'cache-control': 'max-age=60',
+677 silly registry.get     'content-length': '23164',
+677 silly registry.get     'accept-ranges': 'bytes',
+677 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+677 silly registry.get     via: '1.1 varnish',
+677 silly registry.get     age: '0',
+677 silly registry.get     connection: 'keep-alive',
+677 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+677 silly registry.get     'x-cache': 'HIT',
+677 silly registry.get     'x-cache-hits': '1',
+677 silly registry.get     'x-timer': 'S1441690824.230910,VS0,VE186',
+677 silly registry.get     vary: 'Accept' } ]
+678 silly addNameRange number 2 { name: 'load-grunt-tasks',
+678 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+678 silly addNameRange   hasData: true }
+679 silly addNameRange versions [ 'load-grunt-tasks',
+679 silly addNameRange   [ '0.1.0',
+679 silly addNameRange     '0.1.1',
+679 silly addNameRange     '0.1.2',
+679 silly addNameRange     '0.1.3',
+679 silly addNameRange     '0.2.0',
+679 silly addNameRange     '0.2.1',
+679 silly addNameRange     '0.3.0',
+679 silly addNameRange     '0.4.0',
+679 silly addNameRange     '0.5.0',
+679 silly addNameRange     '0.6.0',
+679 silly addNameRange     '1.0.0',
+679 silly addNameRange     '2.0.0',
+679 silly addNameRange     '3.0.0',
+679 silly addNameRange     '3.1.0',
+679 silly addNameRange     '3.2.0' ] ]
+680 verbose addNamed [ 'load-grunt-tasks', '0.6.0' ]
+681 verbose addNamed [ '0.6.0', '0.6.0' ]
+682 silly lockFile 11487ce9-load-grunt-tasks-0-6-0 load-grunt-tasks@0.6.0
+683 verbose lock load-grunt-tasks@0.6.0 /home/brando/.npm/11487ce9-load-grunt-tasks-0-6-0.lock
+684 http 304 https://registry.npmjs.org/karma-script-launcher
+685 silly registry.get cb [ 304,
+685 silly registry.get   { date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+685 silly registry.get     via: '1.1 varnish',
+685 silly registry.get     'cache-control': 'max-age=60',
+685 silly registry.get     etag: '"B7K7G6UQ3EPBF6VMO7AP9CU9H"',
+685 silly registry.get     age: '0',
+685 silly registry.get     connection: 'keep-alive',
+685 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+685 silly registry.get     'x-cache': 'MISS',
+685 silly registry.get     'x-cache-hits': '0',
+685 silly registry.get     'x-timer': 'S1441690824.440768,VS0,VE47',
+685 silly registry.get     vary: 'Accept' } ]
+686 verbose etag https://registry.npmjs.org/karma-script-launcher from cache
+687 silly addNameRange number 2 { name: 'karma-script-launcher',
+687 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+687 silly addNameRange   hasData: true }
+688 silly addNameRange versions [ 'karma-script-launcher', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+689 verbose addNamed [ 'karma-script-launcher', '0.1.0' ]
+690 verbose addNamed [ '0.1.0', '0.1.0' ]
+691 silly lockFile 39eb1e84-karma-script-launcher-0-1-0 karma-script-launcher@0.1.0
+692 verbose lock karma-script-launcher@0.1.0 /home/brando/.npm/39eb1e84-karma-script-launcher-0-1-0.lock
+693 http 200 https://registry.npmjs.org/grunt-contrib-connect
+694 silly registry.get cb [ 200,
+694 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+694 silly registry.get     etag: '"3FB9B1MTCUX5H0ZAH8EIXNY0P"',
+694 silly registry.get     'content-type': 'application/json',
+694 silly registry.get     'cache-control': 'max-age=60',
+694 silly registry.get     'content-length': '53463',
+694 silly registry.get     'accept-ranges': 'bytes',
+694 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+694 silly registry.get     via: '1.1 varnish',
+694 silly registry.get     age: '0',
+694 silly registry.get     connection: 'keep-alive',
+694 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+694 silly registry.get     'x-cache': 'HIT',
+694 silly registry.get     'x-cache-hits': '1',
+694 silly registry.get     'x-timer': 'S1441690824.303740,VS0,VE63',
+694 silly registry.get     vary: 'Accept' } ]
+695 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+695 silly addNameRange   range: '>=0.8.0-0 <0.9.0-0',
+695 silly addNameRange   hasData: true }
+696 silly addNameRange versions [ 'grunt-contrib-connect',
+696 silly addNameRange   [ '0.1.0',
+696 silly addNameRange     '0.1.1',
+696 silly addNameRange     '0.1.2',
+696 silly addNameRange     '0.2.0',
+696 silly addNameRange     '0.3.0',
+696 silly addNameRange     '0.4.0',
+696 silly addNameRange     '0.4.1',
+696 silly addNameRange     '0.4.2',
+696 silly addNameRange     '0.5.0',
+696 silly addNameRange     '0.6.0',
+696 silly addNameRange     '0.7.0',
+696 silly addNameRange     '0.7.1',
+696 silly addNameRange     '0.8.0',
+696 silly addNameRange     '0.9.0',
+696 silly addNameRange     '0.10.0',
+696 silly addNameRange     '0.10.1',
+696 silly addNameRange     '0.11.0',
+696 silly addNameRange     '0.11.1',
+696 silly addNameRange     '0.11.2',
+696 silly addNameRange     '0.1.1-rc6' ] ]
+697 verbose addNamed [ 'grunt-contrib-connect', '0.8.0' ]
+698 verbose addNamed [ '0.8.0', '0.8.0' ]
+699 silly lockFile 526ed901-grunt-contrib-connect-0-8-0 grunt-contrib-connect@0.8.0
+700 verbose lock grunt-contrib-connect@0.8.0 /home/brando/.npm/526ed901-grunt-contrib-connect-0-8-0.lock
+701 silly lockFile 39eb1e84-karma-script-launcher-0-1-0 karma-script-launcher@0.1.0
+702 silly lockFile 39eb1e84-karma-script-launcher-0-1-0 karma-script-launcher@0.1.0
+703 silly lockFile 706ef7c2-karma-script-launcher-0-1-0 karma-script-launcher@~0.1.0
+704 silly lockFile 706ef7c2-karma-script-launcher-0-1-0 karma-script-launcher@~0.1.0
+705 http 200 https://registry.npmjs.org/grunt-webpack
+706 silly registry.get cb [ 200,
+706 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+706 silly registry.get     etag: '"DTTVFT0ZV59VZ1YSW7YO72N4Y"',
+706 silly registry.get     'content-type': 'application/json',
+706 silly registry.get     'cache-control': 'max-age=60',
+706 silly registry.get     'content-length': '33586',
+706 silly registry.get     'accept-ranges': 'bytes',
+706 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+706 silly registry.get     via: '1.1 varnish',
+706 silly registry.get     age: '0',
+706 silly registry.get     connection: 'keep-alive',
+706 silly registry.get     'x-served-by': 'cache-dfw1820-DFW',
+706 silly registry.get     'x-cache': 'MISS',
+706 silly registry.get     'x-cache-hits': '0',
+706 silly registry.get     'x-timer': 'S1441690824.256192,VS0,VE268',
+706 silly registry.get     vary: 'Accept' } ]
+707 http 304 https://registry.npmjs.org/url-loader
+708 silly registry.get cb [ 304,
+708 silly registry.get   { date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+708 silly registry.get     via: '1.1 varnish',
+708 silly registry.get     'cache-control': 'max-age=60',
+708 silly registry.get     etag: '"EEC3BTQL6ITTFZJQ8MSKQP1SW"',
+708 silly registry.get     age: '0',
+708 silly registry.get     connection: 'keep-alive',
+708 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+708 silly registry.get     'x-cache': 'MISS',
+708 silly registry.get     'x-cache-hits': '0',
+708 silly registry.get     'x-timer': 'S1441690824.489549,VS0,VE46',
+708 silly registry.get     vary: 'Accept' } ]
+709 verbose etag https://registry.npmjs.org/url-loader from cache
+710 silly addNameRange number 2 { name: 'grunt-webpack',
+710 silly addNameRange   range: '>=1.0.8-0 <1.1.0-0',
+710 silly addNameRange   hasData: true }
+711 silly addNameRange versions [ 'grunt-webpack',
+711 silly addNameRange   [ '0.1.0',
+711 silly addNameRange     '0.1.1',
+711 silly addNameRange     '0.2.0',
+711 silly addNameRange     '0.2.1',
+711 silly addNameRange     '0.2.2',
+711 silly addNameRange     '0.3.0',
+711 silly addNameRange     '0.3.1',
+711 silly addNameRange     '0.4.0',
+711 silly addNameRange     '0.9.0',
+711 silly addNameRange     '0.9.1',
+711 silly addNameRange     '0.9.3',
+711 silly addNameRange     '0.9.4',
+711 silly addNameRange     '0.9.5',
+711 silly addNameRange     '0.9.6',
+711 silly addNameRange     '0.10.0',
+711 silly addNameRange     '0.10.1',
+711 silly addNameRange     '0.10.2',
+711 silly addNameRange     '0.10.3',
+711 silly addNameRange     '0.10.4',
+711 silly addNameRange     '0.10.5',
+711 silly addNameRange     '0.11.0',
+711 silly addNameRange     '0.11.1',
+711 silly addNameRange     '1.0.0',
+711 silly addNameRange     '1.0.1',
+711 silly addNameRange     '1.0.2',
+711 silly addNameRange     '1.0.3',
+711 silly addNameRange     '1.0.4',
+711 silly addNameRange     '1.0.5',
+711 silly addNameRange     '1.0.6',
+711 silly addNameRange     '1.0.7',
+711 silly addNameRange     '1.0.8',
+711 silly addNameRange     '1.0.10',
+711 silly addNameRange     '1.0.11' ] ]
+712 verbose addNamed [ 'grunt-webpack', '1.0.11' ]
+713 verbose addNamed [ '1.0.11', '1.0.11' ]
+714 silly lockFile a23a2405-grunt-webpack-1-0-11 grunt-webpack@1.0.11
+715 verbose lock grunt-webpack@1.0.11 /home/brando/.npm/a23a2405-grunt-webpack-1-0-11.lock
+716 silly addNameRange number 2 { name: 'url-loader',
+716 silly addNameRange   range: '>=0.5.5-0 <0.6.0-0',
+716 silly addNameRange   hasData: true }
+717 silly addNameRange versions [ 'url-loader',
+717 silly addNameRange   [ '0.1.0',
+717 silly addNameRange     '0.1.1',
+717 silly addNameRange     '0.1.2',
+717 silly addNameRange     '0.1.3',
+717 silly addNameRange     '0.5.0',
+717 silly addNameRange     '0.5.1',
+717 silly addNameRange     '0.5.2',
+717 silly addNameRange     '0.5.3',
+717 silly addNameRange     '0.5.4',
+717 silly addNameRange     '0.5.5',
+717 silly addNameRange     '0.5.6' ] ]
+718 verbose addNamed [ 'url-loader', '0.5.6' ]
+719 verbose addNamed [ '0.5.6', '0.5.6' ]
+720 silly lockFile ab1db784-url-loader-0-5-6 url-loader@0.5.6
+721 verbose lock url-loader@0.5.6 /home/brando/.npm/ab1db784-url-loader-0-5-6.lock
+722 http 304 https://registry.npmjs.org/grunt-open
+723 silly registry.get cb [ 304,
+723 silly registry.get   { date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+723 silly registry.get     via: '1.1 varnish',
+723 silly registry.get     'cache-control': 'max-age=60',
+723 silly registry.get     etag: '"BNU65HXCNE4TUUNNC619W8VGR"',
+723 silly registry.get     age: '0',
+723 silly registry.get     connection: 'keep-alive',
+723 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+723 silly registry.get     'x-cache': 'HIT',
+723 silly registry.get     'x-cache-hits': '1',
+723 silly registry.get     'x-timer': 'S1441690824.652145,VS0,VE64',
+723 silly registry.get     vary: 'Accept' } ]
+724 verbose etag https://registry.npmjs.org/grunt-open from cache
+725 http 200 https://registry.npmjs.org/karma-webpack
+726 silly registry.get cb [ 200,
+726 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+726 silly registry.get     etag: '"1SE8D0X6HG7EU1Y1PSA87HV9I"',
+726 silly registry.get     'content-type': 'application/json',
+726 silly registry.get     'cache-control': 'max-age=60',
+726 silly registry.get     'content-length': '17772',
+726 silly registry.get     'accept-ranges': 'bytes',
+726 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+726 silly registry.get     via: '1.1 varnish',
+726 silly registry.get     age: '0',
+726 silly registry.get     connection: 'keep-alive',
+726 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+726 silly registry.get     'x-cache': 'HIT',
+726 silly registry.get     'x-cache-hits': '1',
+726 silly registry.get     'x-timer': 'S1441690824.563719,VS0,VE193',
+726 silly registry.get     vary: 'Accept' } ]
+727 http 200 https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+728 silly addNameRange number 2 { name: 'grunt-open',
+728 silly addNameRange   range: '>=0.2.3-0 <0.3.0-0',
+728 silly addNameRange   hasData: true }
+729 silly addNameRange versions [ 'grunt-open',
+729 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.2.3' ] ]
+730 verbose addNamed [ 'grunt-open', '0.2.3' ]
+731 verbose addNamed [ '0.2.3', '0.2.3' ]
+732 silly lockFile 3c7c0552-grunt-open-0-2-3 grunt-open@0.2.3
+733 verbose lock grunt-open@0.2.3 /home/brando/.npm/3c7c0552-grunt-open-0-2-3.lock
+734 http 304 https://registry.npmjs.org/style-loader
+735 silly registry.get cb [ 304,
+735 silly registry.get   { date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+735 silly registry.get     via: '1.1 varnish',
+735 silly registry.get     'cache-control': 'max-age=60',
+735 silly registry.get     etag: '"D9HT6K1WTMXOC1WBAC3JWDJXT"',
+735 silly registry.get     age: '0',
+735 silly registry.get     connection: 'keep-alive',
+735 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+735 silly registry.get     'x-cache': 'HIT',
+735 silly registry.get     'x-cache-hits': '1',
+735 silly registry.get     'x-timer': 'S1441690824.604903,VS0,VE190',
+735 silly registry.get     vary: 'Accept' } ]
+736 verbose etag https://registry.npmjs.org/style-loader from cache
+737 silly lockFile 526ed901-grunt-contrib-connect-0-8-0 grunt-contrib-connect@0.8.0
+738 silly lockFile 526ed901-grunt-contrib-connect-0-8-0 grunt-contrib-connect@0.8.0
+739 silly addNameRange number 2 { name: 'style-loader',
+739 silly addNameRange   range: '>=0.8.0-0 <0.9.0-0',
+739 silly addNameRange   hasData: true }
+740 silly addNameRange versions [ 'style-loader',
+740 silly addNameRange   [ '0.1.0',
+740 silly addNameRange     '0.1.1',
+740 silly addNameRange     '0.1.2',
+740 silly addNameRange     '0.1.3',
+740 silly addNameRange     '0.2.0',
+740 silly addNameRange     '0.2.1',
+740 silly addNameRange     '0.5.0',
+740 silly addNameRange     '0.5.1',
+740 silly addNameRange     '0.5.2',
+740 silly addNameRange     '0.6.0',
+740 silly addNameRange     '0.6.1',
+740 silly addNameRange     '0.6.2',
+740 silly addNameRange     '0.6.3',
+740 silly addNameRange     '0.6.4',
+740 silly addNameRange     '0.6.5',
+740 silly addNameRange     '0.7.0',
+740 silly addNameRange     '0.7.1',
+740 silly addNameRange     '0.8.0',
+740 silly addNameRange     '0.8.1',
+740 silly addNameRange     '0.8.2',
+740 silly addNameRange     '0.8.3',
+740 silly addNameRange     '0.9.0',
+740 silly addNameRange     '0.10.0',
+740 silly addNameRange     '0.10.1',
+740 silly addNameRange     '0.10.2',
+740 silly addNameRange     '0.11.0',
+740 silly addNameRange     '0.12.0',
+740 silly addNameRange     '0.12.1',
+740 silly addNameRange     '0.12.2',
+740 silly addNameRange     '0.12.3' ] ]
+741 verbose addNamed [ 'style-loader', '0.8.3' ]
+742 verbose addNamed [ '0.8.3', '0.8.3' ]
+743 silly lockFile 1c665218-style-loader-0-8-3 style-loader@0.8.3
+744 verbose lock style-loader@0.8.3 /home/brando/.npm/1c665218-style-loader-0-8-3.lock
+745 silly lockFile ebb9bf51-grunt-contrib-connect-0-8-0 grunt-contrib-connect@~0.8.0
+746 silly lockFile ebb9bf51-grunt-contrib-connect-0-8-0 grunt-contrib-connect@~0.8.0
+747 silly lockFile 11487ce9-load-grunt-tasks-0-6-0 load-grunt-tasks@0.6.0
+748 silly lockFile 11487ce9-load-grunt-tasks-0-6-0 load-grunt-tasks@0.6.0
+749 silly addNameRange number 2 { name: 'karma-webpack',
+749 silly addNameRange   range: '>=1.5.0-0 <2.0.0-0',
+749 silly addNameRange   hasData: true }
+750 silly addNameRange versions [ 'karma-webpack',
+750 silly addNameRange   [ '1.0.0',
+750 silly addNameRange     '1.0.1',
+750 silly addNameRange     '1.0.2',
+750 silly addNameRange     '1.1.0',
+750 silly addNameRange     '1.2.1',
+750 silly addNameRange     '1.2.2',
+750 silly addNameRange     '1.3.0',
+750 silly addNameRange     '1.3.1',
+750 silly addNameRange     '1.4.0',
+750 silly addNameRange     '1.5.0',
+750 silly addNameRange     '1.5.1',
+750 silly addNameRange     '1.6.0',
+750 silly addNameRange     '1.7.0' ] ]
+751 verbose addNamed [ 'karma-webpack', '1.7.0' ]
+752 verbose addNamed [ '1.7.0', '1.7.0' ]
+753 silly lockFile d8a60de4-karma-webpack-1-7-0 karma-webpack@1.7.0
+754 verbose lock karma-webpack@1.7.0 /home/brando/.npm/d8a60de4-karma-webpack-1-7-0.lock
+755 silly lockFile fd6cb364-load-grunt-tasks-0-6-0 load-grunt-tasks@~0.6.0
+756 silly lockFile fd6cb364-load-grunt-tasks-0-6-0 load-grunt-tasks@~0.6.0
+757 silly lockFile 449308b0--webpack-karma-webpack-1-7-0-tgz https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz
+758 verbose lock https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz /home/brando/.npm/449308b0--webpack-karma-webpack-1-7-0-tgz.lock
+759 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz',
+759 verbose addRemoteTarball   '7e5a4fb2ab68b0cc1c7a4fbfa72bb76eeb18cb2a' ]
+760 silly lockFile 3c7c0552-grunt-open-0-2-3 grunt-open@0.2.3
+761 silly lockFile 3c7c0552-grunt-open-0-2-3 grunt-open@0.2.3
+762 silly lockFile ff1e06d2-grunt-open-0-2-3 grunt-open@~0.2.3
+763 silly lockFile ff1e06d2-grunt-open-0-2-3 grunt-open@~0.2.3
+764 info retry fetch attempt 1 at 22:40:24
+765 verbose fetch to= /tmp/npm-17326-9SptJKZh/registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz
+766 silly lockFile 2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+767 silly lockFile 2a51f4f8-npmjs-org-babel-babel-5-8-23-tgz https://registry.npmjs.org/babel/-/babel-5.8.23.tgz
+768 silly lockFile e71331eb-babel-5-8-23 babel@5.8.23
+769 silly lockFile e71331eb-babel-5-8-23 babel@5.8.23
+770 http GET https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz
+771 silly lockFile e75c02b9-babel-5-0-0 babel@^5.0.0
+772 silly lockFile e75c02b9-babel-5-0-0 babel@^5.0.0
+773 silly lockFile a23a2405-grunt-webpack-1-0-11 grunt-webpack@1.0.11
+774 silly lockFile a23a2405-grunt-webpack-1-0-11 grunt-webpack@1.0.11
+775 silly lockFile ece8a4e8-grunt-webpack-1-0-8 grunt-webpack@~1.0.8
+776 silly lockFile ece8a4e8-grunt-webpack-1-0-8 grunt-webpack@~1.0.8
+777 http 304 https://registry.npmjs.org/grunt-karma
+778 silly registry.get cb [ 304,
+778 silly registry.get   { date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+778 silly registry.get     via: '1.1 varnish',
+778 silly registry.get     'cache-control': 'max-age=60',
+778 silly registry.get     etag: '"BSH5IB7CB2VWYVVYV99RBHGH8"',
+778 silly registry.get     age: '0',
+778 silly registry.get     connection: 'keep-alive',
+778 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+778 silly registry.get     'x-cache': 'HIT',
+778 silly registry.get     'x-cache-hits': '1',
+778 silly registry.get     'x-timer': 'S1441690824.597681,VS0,VE269',
+778 silly registry.get     vary: 'Accept' } ]
+779 verbose etag https://registry.npmjs.org/grunt-karma from cache
+780 silly addNameRange number 2 { name: 'grunt-karma',
+780 silly addNameRange   range: '>=0.8.3-0 <0.9.0-0',
+780 silly addNameRange   hasData: true }
+781 silly addNameRange versions [ 'grunt-karma',
+781 silly addNameRange   [ '0.3.0',
+781 silly addNameRange     '0.4.0',
+781 silly addNameRange     '0.4.1',
+781 silly addNameRange     '0.4.2',
+781 silly addNameRange     '0.4.3',
+781 silly addNameRange     '0.4.4',
+781 silly addNameRange     '0.5.0',
+781 silly addNameRange     '0.4.5',
+781 silly addNameRange     '0.5.1',
+781 silly addNameRange     '0.5.2',
+781 silly addNameRange     '0.4.6',
+781 silly addNameRange     '0.5.3',
+781 silly addNameRange     '0.5.4',
+781 silly addNameRange     '0.6.0',
+781 silly addNameRange     '0.6.1',
+781 silly addNameRange     '0.7.0',
+781 silly addNameRange     '0.6.2',
+781 silly addNameRange     '0.7.1',
+781 silly addNameRange     '0.7.2',
+781 silly addNameRange     '0.7.3',
+781 silly addNameRange     '0.8.0',
+781 silly addNameRange     '0.8.1',
+781 silly addNameRange     '0.8.2',
+781 silly addNameRange     '0.8.3',
+781 silly addNameRange     '0.9.0',
+781 silly addNameRange     '0.10.0',
+781 silly addNameRange     '0.10.1',
+781 silly addNameRange     '0.11.0',
+781 silly addNameRange     '0.11.1',
+781 silly addNameRange     '0.11.2',
+781 silly addNameRange     '0.12.0' ] ]
+782 verbose addNamed [ 'grunt-karma', '0.8.3' ]
+783 verbose addNamed [ '0.8.3', '0.8.3' ]
+784 silly lockFile e0300b7e-grunt-karma-0-8-3 grunt-karma@0.8.3
+785 verbose lock grunt-karma@0.8.3 /home/brando/.npm/e0300b7e-grunt-karma-0-8-3.lock
+786 silly lockFile e0300b7e-grunt-karma-0-8-3 grunt-karma@0.8.3
+787 silly lockFile e0300b7e-grunt-karma-0-8-3 grunt-karma@0.8.3
+788 silly lockFile 1545a07a-grunt-karma-0-8-3 grunt-karma@~0.8.3
+789 silly lockFile 1545a07a-grunt-karma-0-8-3 grunt-karma@~0.8.3
+790 http 200 https://registry.npmjs.org/css-loader
+791 silly registry.get cb [ 200,
+791 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+791 silly registry.get     etag: '"9RERCIXZOJSVEOQRTGL9GYXK0"',
+791 silly registry.get     'content-type': 'application/json',
+791 silly registry.get     'cache-control': 'max-age=60',
+791 silly registry.get     'content-length': '66504',
+791 silly registry.get     'accept-ranges': 'bytes',
+791 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:24 GMT',
+791 silly registry.get     via: '1.1 varnish',
+791 silly registry.get     age: '0',
+791 silly registry.get     connection: 'keep-alive',
+791 silly registry.get     'x-served-by': 'cache-dfw1820-DFW',
+791 silly registry.get     'x-cache': 'HIT',
+791 silly registry.get     'x-cache-hits': '1',
+791 silly registry.get     'x-timer': 'S1441690824.653162,VS0,VE188',
+791 silly registry.get     vary: 'Accept' } ]
+792 silly addNameRange number 2 { name: 'css-loader',
+792 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+792 silly addNameRange   hasData: true }
+793 silly addNameRange versions [ 'css-loader',
+793 silly addNameRange   [ '0.1.0',
+793 silly addNameRange     '0.1.1',
+793 silly addNameRange     '0.1.2',
+793 silly addNameRange     '0.2.0',
+793 silly addNameRange     '0.2.1',
+793 silly addNameRange     '0.2.2',
+793 silly addNameRange     '0.2.3',
+793 silly addNameRange     '0.2.4',
+793 silly addNameRange     '0.5.0',
+793 silly addNameRange     '0.5.1',
+793 silly addNameRange     '0.5.2',
+793 silly addNameRange     '0.6.0',
+793 silly addNameRange     '0.6.1',
+793 silly addNameRange     '0.6.2',
+793 silly addNameRange     '0.6.3',
+793 silly addNameRange     '0.6.4',
+793 silly addNameRange     '0.6.5',
+793 silly addNameRange     '0.6.6',
+793 silly addNameRange     '0.6.7',
+793 silly addNameRange     '0.6.8',
+793 silly addNameRange     '0.6.9',
+793 silly addNameRange     '0.6.10',
+793 silly addNameRange     '0.6.11',
+793 silly addNameRange     '0.6.12',
+793 silly addNameRange     '0.7.0',
+793 silly addNameRange     '0.7.1',
+793 silly addNameRange     '0.8.0',
+793 silly addNameRange     '0.9.0',
+793 silly addNameRange     '0.9.1',
+793 silly addNameRange     '0.10.0',
+793 silly addNameRange     '0.10.1',
+793 silly addNameRange     '0.11.0',
+793 silly addNameRange     '0.11.1',
+793 silly addNameRange     '0.11.2',
+793 silly addNameRange     '0.12.0',
+793 silly addNameRange     '0.12.1',
+793 silly addNameRange     '0.13.0',
+793 silly addNameRange     '0.13.1',
+793 silly addNameRange     '0.14.0',
+793 silly addNameRange     '0.14.1',
+793 silly addNameRange     '0.14.2',
+793 silly addNameRange     '0.14.3',
+793 silly addNameRange     '0.14.4',
+793 silly addNameRange     '0.14.5',
+793 silly addNameRange     '0.15.0',
+793 silly addNameRange     '0.15.1',
+793 silly addNameRange     '0.15.2',
+793 silly addNameRange     '0.15.3',
+793 silly addNameRange     '0.15.4',
+793 silly addNameRange     '0.15.5',
+793 silly addNameRange     '0.15.6',
+793 silly addNameRange     '0.16.0',
+793 silly addNameRange     '0.17.0' ] ]
+794 verbose addNamed [ 'css-loader', '0.9.1' ]
+795 verbose addNamed [ '0.9.1', '0.9.1' ]
+796 silly lockFile 6581eef2-css-loader-0-9-1 css-loader@0.9.1
+797 verbose lock css-loader@0.9.1 /home/brando/.npm/6581eef2-css-loader-0-9-1.lock
+798 silly lockFile 1c665218-style-loader-0-8-3 style-loader@0.8.3
+799 silly lockFile 1c665218-style-loader-0-8-3 style-loader@0.8.3
+800 silly lockFile 71f5845d-style-loader-0-8-0 style-loader@~0.8.0
+801 silly lockFile 71f5845d-style-loader-0-8-0 style-loader@~0.8.0
+802 silly lockFile ab1db784-url-loader-0-5-6 url-loader@0.5.6
+803 silly lockFile ab1db784-url-loader-0-5-6 url-loader@0.5.6
+804 silly lockFile fc79b28d-url-loader-0-5-5 url-loader@~0.5.5
+805 silly lockFile fc79b28d-url-loader-0-5-5 url-loader@~0.5.5
+806 silly lockFile 6581eef2-css-loader-0-9-1 css-loader@0.9.1
+807 silly lockFile 6581eef2-css-loader-0-9-1 css-loader@0.9.1
+808 http 200 https://registry.npmjs.org/sass-loader
+809 silly registry.get cb [ 200,
+809 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+809 silly registry.get     etag: '"2PWZH9PAW36KO25F4C3OZFG73"',
+809 silly registry.get     'content-type': 'application/json',
+809 silly registry.get     'cache-control': 'max-age=60',
+809 silly registry.get     'content-length': '34782',
+809 silly registry.get     'accept-ranges': 'bytes',
+809 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+809 silly registry.get     via: '1.1 varnish',
+809 silly registry.get     age: '0',
+809 silly registry.get     connection: 'keep-alive',
+809 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+809 silly registry.get     'x-cache': 'HIT',
+809 silly registry.get     'x-cache-hits': '1',
+809 silly registry.get     'x-timer': 'S1441690824.808602,VS0,VE274',
+809 silly registry.get     vary: 'Accept' } ]
+810 silly lockFile 6a3b2ed2-css-loader-0-9-0 css-loader@~0.9.0
+811 silly lockFile 6a3b2ed2-css-loader-0-9-0 css-loader@~0.9.0
+812 silly addNameRange number 2 { name: 'sass-loader',
+812 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+812 silly addNameRange   hasData: true }
+813 silly addNameRange versions [ 'sass-loader',
+813 silly addNameRange   [ '0.0.1',
+813 silly addNameRange     '0.0.2',
+813 silly addNameRange     '0.1.0',
+813 silly addNameRange     '0.1.1',
+813 silly addNameRange     '0.2.0',
+813 silly addNameRange     '0.3.0',
+813 silly addNameRange     '0.3.1',
+813 silly addNameRange     '0.4.0-beta.1',
+813 silly addNameRange     '0.4.0',
+813 silly addNameRange     '0.4.1',
+813 silly addNameRange     '0.4.2',
+813 silly addNameRange     '0.5.0',
+813 silly addNameRange     '1.0.0',
+813 silly addNameRange     '1.0.1',
+813 silly addNameRange     '0.6.0',
+813 silly addNameRange     '1.0.2',
+813 silly addNameRange     '1.0.3',
+813 silly addNameRange     '1.0.4',
+813 silly addNameRange     '2.0.0',
+813 silly addNameRange     '2.0.1' ] ]
+814 verbose addNamed [ 'sass-loader', '1.0.4' ]
+815 verbose addNamed [ '1.0.4', '1.0.4' ]
+816 silly lockFile cb2a4236-sass-loader-1-0-4 sass-loader@1.0.4
+817 verbose lock sass-loader@1.0.4 /home/brando/.npm/cb2a4236-sass-loader-1-0-4.lock
+818 silly lockFile 9502e829-ass-loader-sass-loader-1-0-4-tgz https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz
+819 verbose lock https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz /home/brando/.npm/9502e829-ass-loader-sass-loader-1-0-4-tgz.lock
+820 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz',
+820 verbose addRemoteTarball   '84f3e117efe63ff19937f202bb807409326b0e83' ]
+821 info retry fetch attempt 1 at 22:40:25
+822 verbose fetch to= /tmp/npm-17326-9SptJKZh/registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz
+823 http GET https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz
+824 http 200 https://registry.npmjs.org/grunt-contrib-clean
+825 silly registry.get cb [ 200,
+825 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+825 silly registry.get     etag: '"3VKP8H22X1S09L0F01GD42UQW"',
+825 silly registry.get     'content-type': 'application/json',
+825 silly registry.get     'cache-control': 'max-age=60',
+825 silly registry.get     'content-length': '23571',
+825 silly registry.get     'accept-ranges': 'bytes',
+825 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+825 silly registry.get     via: '1.1 varnish',
+825 silly registry.get     age: '0',
+825 silly registry.get     connection: 'keep-alive',
+825 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+825 silly registry.get     'x-cache': 'HIT',
+825 silly registry.get     'x-cache-hits': '1',
+825 silly registry.get     'x-timer': 'S1441690824.868096,VS0,VE272',
+825 silly registry.get     vary: 'Accept' } ]
+826 silly addNameRange number 2 { name: 'grunt-contrib-clean',
+826 silly addNameRange   range: '>=0.6.0-0 <0.7.0-0',
+826 silly addNameRange   hasData: true }
+827 silly addNameRange versions [ 'grunt-contrib-clean',
+827 silly addNameRange   [ '0.1.0',
+827 silly addNameRange     '0.2.0',
+827 silly addNameRange     '0.3.0',
+827 silly addNameRange     '0.3.1',
+827 silly addNameRange     '0.3.2',
+827 silly addNameRange     '0.4.0',
+827 silly addNameRange     '0.4.1',
+827 silly addNameRange     '0.5.0',
+827 silly addNameRange     '0.6.0',
+827 silly addNameRange     '0.4.0-a',
+827 silly addNameRange     '0.4.0-rc5',
+827 silly addNameRange     '0.4.0-rc6' ] ]
+828 verbose addNamed [ 'grunt-contrib-clean', '0.6.0' ]
+829 verbose addNamed [ '0.6.0', '0.6.0' ]
+830 silly lockFile 0a668ef6-grunt-contrib-clean-0-6-0 grunt-contrib-clean@0.6.0
+831 verbose lock grunt-contrib-clean@0.6.0 /home/brando/.npm/0a668ef6-grunt-contrib-clean-0-6-0.lock
+832 silly lockFile 0a668ef6-grunt-contrib-clean-0-6-0 grunt-contrib-clean@0.6.0
+833 silly lockFile 0a668ef6-grunt-contrib-clean-0-6-0 grunt-contrib-clean@0.6.0
+834 silly lockFile 944867a7-grunt-contrib-clean-0-6-0 grunt-contrib-clean@~0.6.0
+835 silly lockFile 944867a7-grunt-contrib-clean-0-6-0 grunt-contrib-clean@~0.6.0
+836 http 200 https://registry.npmjs.org/grunt-contrib-copy
+837 silly registry.get cb [ 200,
+837 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+837 silly registry.get     etag: '"DC5L3LOIQGIW96KNDTUMX15M5"',
+837 silly registry.get     'content-type': 'application/json',
+837 silly registry.get     'cache-control': 'max-age=60',
+837 silly registry.get     'content-length': '34855',
+837 silly registry.get     'accept-ranges': 'bytes',
+837 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+837 silly registry.get     via: '1.1 varnish',
+837 silly registry.get     age: '0',
+837 silly registry.get     connection: 'keep-alive',
+837 silly registry.get     'x-served-by': 'cache-dfw1820-DFW',
+837 silly registry.get     'x-cache': 'HIT',
+837 silly registry.get     'x-cache-hits': '1',
+837 silly registry.get     'x-timer': 'S1441690825.081619,VS0,VE190',
+837 silly registry.get     vary: 'Accept' } ]
+838 http 200 https://registry.npmjs.org/webpack-dev-server
+839 silly registry.get cb [ 200,
+839 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+839 silly registry.get     etag: '"5VURF19D5XUD3GJBDQ3LP60QZ"',
+839 silly registry.get     'content-type': 'application/json',
+839 silly registry.get     'cache-control': 'max-age=60',
+839 silly registry.get     'content-length': '87657',
+839 silly registry.get     'accept-ranges': 'bytes',
+839 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+839 silly registry.get     via: '1.1 varnish',
+839 silly registry.get     age: '0',
+839 silly registry.get     connection: 'keep-alive',
+839 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+839 silly registry.get     'x-cache': 'HIT',
+839 silly registry.get     'x-cache-hits': '1',
+839 silly registry.get     'x-timer': 'S1441690825.000903,VS0,VE46',
+839 silly registry.get     vary: 'Accept' } ]
+840 silly addNameRange number 2 { name: 'grunt-contrib-copy',
+840 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+840 silly addNameRange   hasData: true }
+841 silly addNameRange versions [ 'grunt-contrib-copy',
+841 silly addNameRange   [ '0.2.0',
+841 silly addNameRange     '0.2.1',
+841 silly addNameRange     '0.2.2',
+841 silly addNameRange     '0.2.3',
+841 silly addNameRange     '0.2.4',
+841 silly addNameRange     '0.3.0',
+841 silly addNameRange     '0.3.1',
+841 silly addNameRange     '0.3.2',
+841 silly addNameRange     '0.4.0',
+841 silly addNameRange     '0.4.1',
+841 silly addNameRange     '0.5.0',
+841 silly addNameRange     '0.6.0',
+841 silly addNameRange     '0.7.0',
+841 silly addNameRange     '0.8.0',
+841 silly addNameRange     '0.8.1',
+841 silly addNameRange     '0.4.0-rc7' ] ]
+842 verbose addNamed [ 'grunt-contrib-copy', '0.5.0' ]
+843 verbose addNamed [ '0.5.0', '0.5.0' ]
+844 silly lockFile a598d2f8-grunt-contrib-copy-0-5-0 grunt-contrib-copy@0.5.0
+845 verbose lock grunt-contrib-copy@0.5.0 /home/brando/.npm/a598d2f8-grunt-contrib-copy-0-5-0.lock
+846 silly addNameRange number 2 { name: 'webpack-dev-server',
+846 silly addNameRange   range: '>=1.10.0-0 <1.11.0-0',
+846 silly addNameRange   hasData: true }
+847 silly addNameRange versions [ 'webpack-dev-server',
+847 silly addNameRange   [ '0.6.0',
+847 silly addNameRange     '0.6.1',
+847 silly addNameRange     '0.6.2',
+847 silly addNameRange     '0.7.0',
+847 silly addNameRange     '0.7.1',
+847 silly addNameRange     '0.7.2',
+847 silly addNameRange     '0.8.0',
+847 silly addNameRange     '0.8.1',
+847 silly addNameRange     '0.8.2',
+847 silly addNameRange     '0.9.0',
+847 silly addNameRange     '0.9.1',
+847 silly addNameRange     '0.9.2',
+847 silly addNameRange     '0.9.3',
+847 silly addNameRange     '0.9.4',
+847 silly addNameRange     '0.10.0',
+847 silly addNameRange     '0.10.1',
+847 silly addNameRange     '0.11.0',
+847 silly addNameRange     '0.11.1',
+847 silly addNameRange     '1.0.0',
+847 silly addNameRange     '1.0.1',
+847 silly addNameRange     '1.0.2',
+847 silly addNameRange     '1.1.0',
+847 silly addNameRange     '1.2.0',
+847 silly addNameRange     '1.2.1',
+847 silly addNameRange     '1.2.2',
+847 silly addNameRange     '1.2.3',
+847 silly addNameRange     '1.2.4',
+847 silly addNameRange     '1.2.5',
+847 silly addNameRange     '1.2.6',
+847 silly addNameRange     '1.2.7',
+847 silly addNameRange     '1.2.8',
+847 silly addNameRange     '1.2.9',
+847 silly addNameRange     '1.3.0',
+847 silly addNameRange     '1.3.1',
+847 silly addNameRange     '1.3.2',
+847 silly addNameRange     '1.4.0',
+847 silly addNameRange     '1.4.1',
+847 silly addNameRange     '1.4.2',
+847 silly addNameRange     '1.4.3',
+847 silly addNameRange     '1.4.4',
+847 silly addNameRange     '1.4.5',
+847 silly addNameRange     '1.4.6',
+847 silly addNameRange     '1.4.7',
+847 silly addNameRange     '1.4.9',
+847 silly addNameRange     '1.4.10',
+847 silly addNameRange     '1.5.0',
+847 silly addNameRange     '1.6.0',
+847 silly addNameRange     '1.6.1',
+847 silly addNameRange     '1.6.2',
+847 silly addNameRange     '1.6.3',
+847 silly addNameRange     '1.6.4',
+847 silly addNameRange     '1.6.5',
+847 silly addNameRange     '1.6.6',
+847 silly addNameRange     '1.7.0',
+847 silly addNameRange     '1.8.0',
+847 silly addNameRange     '1.8.1',
+847 silly addNameRange     '1.8.2',
+847 silly addNameRange     '1.9.0',
+847 silly addNameRange     '1.10.0',
+847 silly addNameRange     '1.10.1' ] ]
+848 verbose addNamed [ 'webpack-dev-server', '1.10.1' ]
+849 verbose addNamed [ '1.10.1', '1.10.1' ]
+850 silly lockFile 424293ad-webpack-dev-server-1-10-1 webpack-dev-server@1.10.1
+851 verbose lock webpack-dev-server@1.10.1 /home/brando/.npm/424293ad-webpack-dev-server-1-10-1.lock
+852 http 200 https://registry.npmjs.org/react-hot-loader
+853 silly registry.get cb [ 200,
+853 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+853 silly registry.get     etag: '"2ZQ5H0HPRAOS4D73YS0X2J07Y"',
+853 silly registry.get     'content-type': 'application/json',
+853 silly registry.get     'cache-control': 'max-age=60',
+853 silly registry.get     'content-length': '75233',
+853 silly registry.get     'accept-ranges': 'bytes',
+853 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+853 silly registry.get     via: '1.1 varnish',
+853 silly registry.get     age: '0',
+853 silly registry.get     connection: 'keep-alive',
+853 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+853 silly registry.get     'x-cache': 'MISS',
+853 silly registry.get     'x-cache-hits': '0',
+853 silly registry.get     'x-timer': 'S1441690824.918511,VS0,VE254',
+853 silly registry.get     vary: 'Accept' } ]
+854 silly lockFile a598d2f8-grunt-contrib-copy-0-5-0 grunt-contrib-copy@0.5.0
+855 silly lockFile a598d2f8-grunt-contrib-copy-0-5-0 grunt-contrib-copy@0.5.0
+856 silly lockFile ac3d673b-grunt-contrib-copy-0-5-0 grunt-contrib-copy@~0.5.0
+857 silly lockFile ac3d673b-grunt-contrib-copy-0-5-0 grunt-contrib-copy@~0.5.0
+858 silly addNameRange number 2 { name: 'react-hot-loader',
+858 silly addNameRange   range: '>=1.0.7-0 <2.0.0-0',
+858 silly addNameRange   hasData: true }
+859 silly addNameRange versions [ 'react-hot-loader',
+859 silly addNameRange   [ '0.1.0',
+859 silly addNameRange     '0.1.2',
+859 silly addNameRange     '0.1.3',
+859 silly addNameRange     '0.1.4',
+859 silly addNameRange     '0.1.5',
+859 silly addNameRange     '0.1.6',
+859 silly addNameRange     '0.1.7',
+859 silly addNameRange     '0.1.8',
+859 silly addNameRange     '0.1.9',
+859 silly addNameRange     '0.1.10',
+859 silly addNameRange     '0.1.11',
+859 silly addNameRange     '0.2.0',
+859 silly addNameRange     '0.3.0',
+859 silly addNameRange     '0.3.1',
+859 silly addNameRange     '0.4.0',
+859 silly addNameRange     '0.4.1',
+859 silly addNameRange     '0.4.2',
+859 silly addNameRange     '0.4.3',
+859 silly addNameRange     '0.4.4',
+859 silly addNameRange     '0.4.5',
+859 silly addNameRange     '0.5.0',
+859 silly addNameRange     '1.0.0-alpha',
+859 silly addNameRange     '1.0.0-alpha.1',
+859 silly addNameRange     '1.0.0-alpha.2',
+859 silly addNameRange     '1.0.0-alpha.3',
+859 silly addNameRange     '1.0.0',
+859 silly addNameRange     '1.0.1',
+859 silly addNameRange     '1.0.2',
+859 silly addNameRange     '1.0.3',
+859 silly addNameRange     '1.0.4',
+859 silly addNameRange     '1.0.5',
+859 silly addNameRange     '1.0.6',
+859 silly addNameRange     '1.0.7',
+859 silly addNameRange     '1.1.0',
+859 silly addNameRange     '1.1.1',
+859 silly addNameRange     '1.1.2',
+859 silly addNameRange     '1.1.3',
+859 silly addNameRange     '1.1.4',
+859 silly addNameRange     '1.1.5',
+859 silly addNameRange     '1.1.6',
+859 silly addNameRange     '1.1.7',
+859 silly addNameRange     '1.2.0',
+859 silly addNameRange     '1.2.1',
+859 silly addNameRange     '1.2.2',
+859 silly addNameRange     '1.2.3',
+859 silly addNameRange     '1.2.4',
+859 silly addNameRange     '1.2.5',
+859 silly addNameRange     '1.2.6',
+859 silly addNameRange     '1.2.7',
+859 silly addNameRange     '1.2.8',
+859 silly addNameRange     '1.2.9',
+859 silly addNameRange     '2.0.0-alpha',
+859 silly addNameRange     '2.0.0-alpha-1',
+859 silly addNameRange     '2.0.0-alpha-2',
+859 silly addNameRange     '2.0.0-alpha-3',
+859 silly addNameRange     '1.3.0',
+859 silly addNameRange     '2.0.0-alpha-4' ] ]
+860 verbose addNamed [ 'react-hot-loader', '1.3.0' ]
+861 verbose addNamed [ '1.3.0', '1.3.0' ]
+862 silly lockFile 5972c6b5-react-hot-loader-1-3-0 react-hot-loader@1.3.0
+863 verbose lock react-hot-loader@1.3.0 /home/brando/.npm/5972c6b5-react-hot-loader-1-3-0.lock
+864 silly lockFile ede968c8-oader-react-hot-loader-1-3-0-tgz https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+865 verbose lock https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz /home/brando/.npm/ede968c8-oader-react-hot-loader-1-3-0-tgz.lock
+866 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz',
+866 verbose addRemoteTarball   '7701658d02108b5bbc407e200dde591cb7a6ed69' ]
+867 info retry fetch attempt 1 at 22:40:25
+868 verbose fetch to= /tmp/npm-17326-9SptJKZh/registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+869 http GET https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+870 silly lockFile 424293ad-webpack-dev-server-1-10-1 webpack-dev-server@1.10.1
+871 silly lockFile 424293ad-webpack-dev-server-1-10-1 webpack-dev-server@1.10.1
+872 silly lockFile 12c15e50-webpack-dev-server-1-10-0 webpack-dev-server@~1.10.0
+873 silly lockFile 12c15e50-webpack-dev-server-1-10-0 webpack-dev-server@~1.10.0
+874 http 200 https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz
+875 silly lockFile 449308b0--webpack-karma-webpack-1-7-0-tgz https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz
+876 silly lockFile 449308b0--webpack-karma-webpack-1-7-0-tgz https://registry.npmjs.org/karma-webpack/-/karma-webpack-1.7.0.tgz
+877 silly lockFile d8a60de4-karma-webpack-1-7-0 karma-webpack@1.7.0
+878 silly lockFile d8a60de4-karma-webpack-1-7-0 karma-webpack@1.7.0
+879 silly lockFile fc596890-karma-webpack-1-5-0 karma-webpack@^1.5.0
+880 silly lockFile fc596890-karma-webpack-1-5-0 karma-webpack@^1.5.0
+881 http 200 https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz
+882 silly lockFile 9502e829-ass-loader-sass-loader-1-0-4-tgz https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz
+883 silly lockFile 9502e829-ass-loader-sass-loader-1-0-4-tgz https://registry.npmjs.org/sass-loader/-/sass-loader-1.0.4.tgz
+884 silly lockFile cb2a4236-sass-loader-1-0-4 sass-loader@1.0.4
+885 silly lockFile cb2a4236-sass-loader-1-0-4 sass-loader@1.0.4
+886 silly lockFile f484dad6-sass-loader-1-0-1 sass-loader@^1.0.1
+887 silly lockFile f484dad6-sass-loader-1-0-1 sass-loader@^1.0.1
+888 http 200 https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+889 silly lockFile ede968c8-oader-react-hot-loader-1-3-0-tgz https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+890 silly lockFile ede968c8-oader-react-hot-loader-1-3-0-tgz https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-1.3.0.tgz
+891 silly lockFile 5972c6b5-react-hot-loader-1-3-0 react-hot-loader@1.3.0
+892 silly lockFile 5972c6b5-react-hot-loader-1-3-0 react-hot-loader@1.3.0
+893 silly lockFile 4e0557fa-react-hot-loader-1-0-7 react-hot-loader@^1.0.7
+894 silly lockFile 4e0557fa-react-hot-loader-1-0-7 react-hot-loader@^1.0.7
+895 http 200 https://registry.npmjs.org/webpack
+896 silly registry.get cb [ 200,
+896 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+896 silly registry.get     etag: '"AIEYT8UT8RJOH3C1Z1RIJO83H"',
+896 silly registry.get     'content-type': 'application/json',
+896 silly registry.get     'cache-control': 'max-age=60',
+896 silly registry.get     'content-length': '689662',
+896 silly registry.get     'accept-ranges': 'bytes',
+896 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+896 silly registry.get     via: '1.1 varnish',
+896 silly registry.get     age: '0',
+896 silly registry.get     connection: 'keep-alive',
+896 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+896 silly registry.get     'x-cache': 'HIT',
+896 silly registry.get     'x-cache-hits': '1',
+896 silly registry.get     'x-timer': 'S1441690825.261465,VS0,VE194',
+896 silly registry.get     vary: 'Accept' } ]
+897 silly addNameRange number 2 { name: 'webpack', range: '>=1.10.0-0 <1.11.0-0', hasData: true }
+898 silly addNameRange versions [ 'webpack',
+898 silly addNameRange   [ '0.1.0',
+898 silly addNameRange     '0.1.1',
+898 silly addNameRange     '0.1.2',
+898 silly addNameRange     '0.1.3',
+898 silly addNameRange     '0.1.4',
+898 silly addNameRange     '0.1.5',
+898 silly addNameRange     '0.1.6',
+898 silly addNameRange     '0.2.0',
+898 silly addNameRange     '0.2.1',
+898 silly addNameRange     '0.2.2',
+898 silly addNameRange     '0.2.3',
+898 silly addNameRange     '0.2.4',
+898 silly addNameRange     '0.2.6',
+898 silly addNameRange     '0.2.7',
+898 silly addNameRange     '0.2.8',
+898 silly addNameRange     '0.3.0',
+898 silly addNameRange     '0.3.1',
+898 silly addNameRange     '0.3.2',
+898 silly addNameRange     '0.3.3',
+898 silly addNameRange     '0.3.4',
+898 silly addNameRange     '0.3.6',
+898 silly addNameRange     '0.3.7',
+898 silly addNameRange     '0.3.8',
+898 silly addNameRange     '0.3.9',
+898 silly addNameRange     '0.3.10',
+898 silly addNameRange     '0.3.11',
+898 silly addNameRange     '0.3.12',
+898 silly addNameRange     '0.3.13',
+898 silly addNameRange     '0.3.14',
+898 silly addNameRange     '0.3.15',
+898 silly addNameRange     '0.3.16',
+898 silly addNameRange     '0.3.17',
+898 silly addNameRange     '0.3.18',
+898 silly addNameRange     '0.3.19',
+898 silly addNameRange     '0.3.20',
+898 silly addNameRange     '0.4.0',
+898 silly addNameRange     '0.4.1',
+898 silly addNameRange     '0.4.2',
+898 silly addNameRange     '0.4.3',
+898 silly addNameRange     '0.4.4',
+898 silly addNameRange     '0.4.5',
+898 silly addNameRange     '0.4.6',
+898 silly addNameRange     '0.4.7',
+898 silly addNameRange     '0.4.8',
+898 silly addNameRange     '0.4.9',
+898 silly addNameRange     '0.4.10',
+898 silly addNameRange     '0.4.11',
+898 silly addNameRange     '0.4.12',
+898 silly addNameRange     '0.4.13',
+898 silly addNameRange     '0.4.14',
+898 silly addNameRange     '0.4.15',
+898 silly addNameRange     '0.4.16',
+898 silly addNameRange     '0.4.17',
+898 silly addNameRange     '0.4.18',
+898 silly addNameRange     '0.4.19',
+898 silly addNameRange     '0.4.20',
+898 silly addNameRange     '0.4.21',
+898 silly addNameRange     '0.4.23',
+898 silly addNameRange     '0.4.24',
+898 silly addNameRange     '0.4.25',
+898 silly addNameRange     '0.5.0',
+898 silly addNameRange     '0.5.1',
+898 silly addNameRange     '0.5.2',
+898 silly addNameRange     '0.5.3',
+898 silly addNameRange     '0.5.4',
+898 silly addNameRange     '0.5.5',
+898 silly addNameRange     '0.5.6',
+898 silly addNameRange     '0.5.7',
+898 silly addNameRange     '0.5.8',
+898 silly addNameRange     '0.5.10',
+898 silly addNameRange     '0.6.0',
+898 silly addNameRange     '0.6.1',
+898 silly addNameRange     '0.6.2',
+898 silly addNameRange     '0.7.0-beta',
+898 silly addNameRange     '0.7.0-beta2',
+898 silly addNameRange     '0.7.0-beta3',
+898 silly addNameRange     '0.7.0-beta4',
+898 silly addNameRange     '0.7.0-beta5',
+898 silly addNameRange     '0.7.0-beta6',
+898 silly addNameRange     '0.7.0-beta7',
+898 silly addNameRange     '0.7.0-beta8',
+898 silly addNameRange     '0.7.0',
+898 silly addNameRange     '0.7.1',
+898 silly addNameRange     '0.7.2',
+898 silly addNameRange     '0.7.3',
+898 silly addNameRange     '0.7.4',
+898 silly addNameRange     '0.7.5',
+898 silly addNameRange     '0.7.6',
+898 silly addNameRange     '0.7.7',
+898 silly addNameRange     '0.7.8',
+898 silly addNameRange     '0.7.9',
+898 silly addNameRange     '0.7.11',
+898 silly addNameRange     '0.7.12',
+898 silly addNameRange     '0.7.13',
+898 silly addNameRange     '0.7.14',
+898 silly addNameRange     '0.7.15',
+898 silly addNameRange     '0.7.16',
+898 silly addNameRange     '0.7.17',
+898 silly addNameRange     '0.8.0-beta1',
+898 silly addNameRange     '0.8.0-beta2',
+898 silly addNameRange     '0.8.0-beta3',
+898 silly addNameRange     '0.8.0-beta4',
+898 silly addNameRange     '0.8.0',
+898 silly addNameRange     '0.8.2',
+898 silly addNameRange     '0.8.3',
+898 silly addNameRange     '0.9.0-beta1',
+898 silly addNameRange     '0.9.0-beta2',
+898 silly addNameRange     '0.9.0-beta4',
+898 silly addNameRange     '0.9.0-beta5',
+898 silly addNameRange     '0.9.0-beta6',
+898 silly addNameRange     '0.9.0-beta7',
+898 silly addNameRange     '0.9.0-beta8',
+898 silly addNameRange     '0.9.0-beta9',
+898 silly addNameRange     '0.9.0-beta10',
+898 silly addNameRange     '0.9.0-beta11',
+898 silly addNameRange     '0.9.0-beta12',
+898 silly addNameRange     '0.9.0-beta13',
+898 silly addNameRange     '0.9.0-beta14',
+898 silly addNameRange     '0.9.0-beta15',
+898 silly addNameRange     '0.9.0-beta16',
+898 silly addNameRange     '0.9.0-beta17',
+898 silly addNameRange     '0.9.0-beta18',
+898 silly addNameRange     '0.9.0-beta19',
+898 silly addNameRange     '0.9.0-beta20',
+898 silly addNameRange     '0.9.0-beta21',
+898 silly addNameRange     '0.9.0-beta22',
+898 silly addNameRange     '0.9.0-beta23',
+898 silly addNameRange     '0.9.0-beta24',
+898 silly addNameRange     '0.9.0-beta25',
+898 silly addNameRange     '0.9.0-beta26',
+898 silly addNameRange     '0.9.0-beta27',
+898 silly addNameRange     '0.9.0-beta28',
+898 silly addNameRange     '0.9.0-beta29',
+898 silly addNameRange     '0.9.0-beta30',
+898 silly addNameRange     '0.9.0-beta31',
+898 silly addNameRange     '0.9.0-beta32',
+898 silly addNameRange     '0.9.0-beta33',
+898 silly addNameRange     '0.9.0-beta34',
+898 silly addNameRange     '0.9.0-beta35',
+898 silly addNameRange     '0.9.0-beta36',
+898 silly addNameRange     '0.9.0-beta37',
+898 silly addNameRange     '0.9.0-beta38',
+898 silly addNameRange     '0.9.0',
+898 silly addNameRange     '0.9.1',
+898 silly addNameRange     '0.9.2',
+898 silly addNameRange     '0.9.3',
+898 silly addNameRange     '0.10.0-beta2',
+898 silly addNameRange     '0.10.0-beta3',
+898 silly addNameRange     '0.10.0-beta5',
+898 silly addNameRange     '0.10.0-beta6',
+898 silly addNameRange     '0.10.0-beta7',
+898 silly addNameRange     '0.10.0-beta8',
+898 silly addNameRange     '0.10.0-beta9',
+898 silly addNameRange     '0.10.0-beta10',
+898 silly addNameRange     '0.10.0-beta11',
+898 silly addNameRange     '0.10.0-beta12',
+898 silly addNameRange     '0.10.0-beta13',
+898 silly addNameRange     '0.10.0-beta14',
+898 silly addNameRange     '0.10.0-beta15',
+898 silly addNameRange     '0.10.0-beta16',
+898 silly addNameRange     '0.10.0-beta17',
+898 silly addNameRange     '0.10.0-beta18',
+898 silly addNameRange     '0.10.0-beta19',
+898 silly addNameRange     '0.10.0-beta20',
+898 silly addNameRange     '0.10.0-beta21',
+898 silly addNameRange     '0.10.0-beta22',
+898 silly addNameRange     '0.10.0-beta23',
+898 silly addNameRange     '0.10.0-beta24',
+898 silly addNameRange     '0.10.0-beta25',
+898 silly addNameRange     '0.10.0',
+898 silly addNameRange     '0.11.0-beta1',
+898 silly addNameRange     '0.11.0-beta2',
+898 silly addNameRange     '0.11.0-beta3',
+898 silly addNameRange     '0.11.0-beta4',
+898 silly addNameRange     '0.11.0-beta5',
+898 silly addNameRange     '0.11.0-beta6',
+898 silly addNameRange     '0.11.0-beta7',
+898 silly addNameRange     '0.11.0-beta8',
+898 silly addNameRange     '0.11.0-beta9',
+898 silly addNameRange     '0.11.0-beta10',
+898 silly addNameRange     '0.11.0-beta11',
+898 silly addNameRange     '0.11.0-beta12',
+898 silly addNameRange     '0.11.0-beta13',
+898 silly addNameRange     '0.11.0-beta14',
+898 silly addNameRange     '0.11.0-beta15',
+898 silly addNameRange     '0.11.0-beta16',
+898 silly addNameRange     '0.11.0-beta17',
+898 silly addNameRange     '0.11.0-beta18',
+898 silly addNameRange     '0.11.0-beta19',
+898 silly addNameRange     '0.11.0-beta20',
+898 silly addNameRange     '0.11.0-beta21',
+898 silly addNameRange     '0.11.0-beta22',
+898 silly addNameRange     '0.11.0-beta23',
+898 silly addNameRange     '0.11.0-beta24',
+898 silly addNameRange     '0.11.0-beta25',
+898 silly addNameRange     '0.11.0-beta26',
+898 silly addNameRange     '0.11.0-beta27',
+898 silly addNameRange     '0.11.0-beta28',
+898 silly addNameRange     '0.11.0-beta29',
+898 silly addNameRange     '0.11.0',
+898 silly addNameRange     '0.11.1',
+898 silly addNameRange     '0.11.2',
+898 silly addNameRange     '0.11.3',
+898 silly addNameRange     '0.11.4',
+898 silly addNameRange     '0.11.5',
+898 silly addNameRange     '0.11.6',
+898 silly addNameRange     '0.11.7',
+898 silly addNameRange     '0.11.8',
+898 silly addNameRange     '0.11.9',
+898 silly addNameRange     '0.11.10',
+898 silly addNameRange     '0.11.11',
+898 silly addNameRange     '0.11.12',
+898 silly addNameRange     '0.11.13',
+898 silly addNameRange     '0.11.14',
+898 silly addNameRange     '0.11.15',
+898 silly addNameRange     '1.0.0-beta1',
+898 silly addNameRange     '1.0.0-beta2',
+898 silly addNameRange     '1.0.0-beta3',
+898 silly addNameRange     '1.0.0-beta4',
+898 silly addNameRange     '0.11.16',
+898 silly addNameRange     '0.11.17',
+898 silly addNameRange     '0.11.18',
+898 silly addNameRange     '1.0.0-beta5',
+898 silly addNameRange     '1.0.0-beta6',
+898 silly addNameRange     '1.0.0-beta7',
+898 silly addNameRange     '1.0.0-beta8',
+898 silly addNameRange     '1.0.0-beta9',
+898 silly addNameRange     '1.0.0-rc1',
+898 silly addNameRange     '1.0.0-rc2',
+898 silly addNameRange     '1.0.0-rc3',
+898 silly addNameRange     '1.0.0-rc4',
+898 silly addNameRange     '1.0.0-rc5',
+898 silly addNameRange     '1.0.0-rc7',
+898 silly addNameRange     '1.0.0-rc8',
+898 silly addNameRange     '1.0.0-rc9',
+898 silly addNameRange     '1.0.0-rc11',
+898 silly addNameRange     '1.0.0-rc12',
+898 silly addNameRange     '1.0.0',
+898 silly addNameRange     '1.0.1',
+898 silly addNameRange     '1.0.3',
+898 silly addNameRange     '1.0.4',
+898 silly addNameRange     '1.0.5',
+898 silly addNameRange     '1.1.0-beta1',
+898 silly addNameRange     '1.1.0-beta2',
+898 silly addNameRange     '1.1.0-beta3',
+898 silly addNameRange     '1.1.0-beta4',
+898 silly addNameRange     '1.1.0-beta5',
+898 silly addNameRange     '1.1.0-beta6',
+898 silly addNameRange     '1.1.0-beta7',
+898 silly addNameRange     '1.1.0-beta8',
+898 silly addNameRange     '1.1.0-beta9',
+898 silly addNameRange     '1.1.0-beta10',
+898 silly addNameRange     '1.1.0-beta12',
+898 silly addNameRange     '1.1.0',
+898 silly addNameRange     '1.1.1',
+898 silly addNameRange     '1.1.2',
+898 silly addNameRange     '1.1.3',
+898 silly addNameRange     '1.1.4',
+898 silly addNameRange     '1.1.5',
+898 silly addNameRange     '1.1.6',
+898 silly addNameRange     '1.1.7',
+898 silly addNameRange     '1.1.8',
+898 silly addNameRange     '1.1.9',
+898 silly addNameRange     '1.1.10',
+898 silly addNameRange     '1.1.11',
+898 silly addNameRange     '1.2.0-beta1',
+898 silly addNameRange     '1.2.0-beta2',
+898 silly addNameRange     '1.2.0-beta4',
+898 silly addNameRange     '1.2.0-beta5',
+898 silly addNameRange     '1.2.0-beta6',
+898 silly addNameRange     '1.3.0-beta1',
+898 silly addNameRange     '1.3.0-beta2',
+898 silly addNameRange     '1.3.0-beta3',
+898 silly addNameRange     '1.3.0-beta4',
+898 silly addNameRange     '1.3.0-beta5',
+898 silly addNameRange     '1.3.0-beta6',
+898 silly addNameRange     '1.3.0-beta7',
+898 silly addNameRange     '1.3.0-beta8',
+898 silly addNameRange     '1.3.0-beta9',
+898 silly addNameRange     '1.3.1-beta1',
+898 silly addNameRange     '1.3.1-beta2',
+898 silly addNameRange     '1.3.1-beta3',
+898 silly addNameRange     '1.3.1-beta4',
+898 silly addNameRange     '1.3.1-beta5',
+898 silly addNameRange     '1.3.1-beta6',
+898 silly addNameRange     '1.3.1-beta7',
+898 silly addNameRange     '1.3.1-beta8',
+898 silly addNameRange     '1.3.1-beta9',
+898 silly addNameRange     '1.3.2-beta1',
+898 silly addNameRange     '1.3.2-beta2',
+898 silly addNameRange     '1.3.2-beta3',
+898 silly addNameRange     '1.3.2-beta4',
+898 silly addNameRange     '1.3.2-beta5',
+898 silly addNameRange     '1.3.2-beta6',
+898 silly addNameRange     '1.3.2-beta7',
+898 silly addNameRange     '1.3.2-beta8',
+898 silly addNameRange     '1.3.2-beta9',
+898 silly addNameRange     '1.3.3-beta1',
+898 silly addNameRange     '1.3.3-beta2',
+898 silly addNameRange     '1.3.4',
+898 silly addNameRange     '1.3.5',
+898 silly addNameRange     '1.3.6',
+898 silly addNameRange     '1.3.7',
+898 silly addNameRange     '1.4.0-beta1',
+898 silly addNameRange     '1.4.0-beta2',
+898 silly addNameRange     '1.4.0-beta3',
+898 silly addNameRange     '1.4.0-beta4',
+898 silly addNameRange     '1.4.0-beta5',
+898 silly addNameRange     '1.4.0-beta6',
+898 silly addNameRange     '1.4.0-beta7',
+898 silly addNameRange     '1.4.0-beta8',
+898 silly addNameRange     '1.4.0-beta9',
+898 silly addNameRange     '1.4.0-beta10',
+898 silly addNameRange     '1.4.1-beta1',
+898 silly addNameRange     '1.4.2',
+898 silly addNameRange     '1.4.3',
+898 silly addNameRange     '1.4.4',
+898 silly addNameRange     '1.4.5',
+898 silly addNameRange     '1.4.6',
+898 silly addNameRange     '1.4.7',
+898 silly addNameRange     '1.4.8',
+898 silly addNameRange     '1.4.9',
+898 silly addNameRange     '1.4.10',
+898 silly addNameRange     '1.4.11',
+898 silly addNameRange     '1.4.12',
+898 silly addNameRange     '1.4.13',
+898 silly addNameRange     '1.4.14',
+898 silly addNameRange     '1.4.15',
+898 silly addNameRange     '1.5.0',
+898 silly addNameRange     '1.5.1',
+898 silly addNameRange     '1.5.2',
+898 silly addNameRange     '1.5.3',
+898 silly addNameRange     '1.6.0',
+898 silly addNameRange     '1.7.0',
+898 silly addNameRange     '1.7.1',
+898 silly addNameRange     '1.7.2',
+898 silly addNameRange     '1.7.3',
+898 silly addNameRange     '1.8.0',
+898 silly addNameRange     '1.8.1',
+898 silly addNameRange     '1.8.2',
+898 silly addNameRange     '1.8.3',
+898 silly addNameRange     '1.8.4',
+898 silly addNameRange     '1.8.5',
+898 silly addNameRange     '1.8.6',
+898 silly addNameRange     '1.8.7',
+898 silly addNameRange     '1.8.8',
+898 silly addNameRange     '1.8.9',
+898 silly addNameRange     '1.8.10',
+898 silly addNameRange     '1.8.11',
+898 silly addNameRange     '1.9.0',
+898 silly addNameRange     '1.9.1',
+898 silly addNameRange     '1.9.2',
+898 silly addNameRange     '1.9.3',
+898 silly addNameRange     '1.9.4',
+898 silly addNameRange     '1.9.5',
+898 silly addNameRange     '1.9.6',
+898 silly addNameRange     '1.9.7',
+898 silly addNameRange     '1.9.8',
+898 silly addNameRange     '1.9.9',
+898 silly addNameRange     '1.9.10',
+898 silly addNameRange     '1.9.11',
+898 silly addNameRange     '1.9.12',
+898 silly addNameRange     '1.9.13',
+898 silly addNameRange     '1.10.0',
+898 silly addNameRange     '1.10.1',
+898 silly addNameRange     '1.10.2',
+898 silly addNameRange     '1.10.3',
+898 silly addNameRange     '1.10.4',
+898 silly addNameRange     '1.10.5',
+898 silly addNameRange     '1.11.0',
+898 silly addNameRange     '1.12.0',
+898 silly addNameRange     '1.12.1' ] ]
+899 verbose addNamed [ 'webpack', '1.10.5' ]
+900 verbose addNamed [ '1.10.5', '1.10.5' ]
+901 silly lockFile d601f4f0-webpack-1-10-5 webpack@1.10.5
+902 verbose lock webpack@1.10.5 /home/brando/.npm/d601f4f0-webpack-1-10-5.lock
+903 silly lockFile d601f4f0-webpack-1-10-5 webpack@1.10.5
+904 silly lockFile d601f4f0-webpack-1-10-5 webpack@1.10.5
+905 silly lockFile 17d5fe9f-webpack-1-10-0 webpack@~1.10.0
+906 silly lockFile 17d5fe9f-webpack-1-10-0 webpack@~1.10.0
+907 http 200 https://registry.npmjs.org/karma
+908 silly registry.get cb [ 200,
+908 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+908 silly registry.get     etag: '"21A3785O86VEB0PCHJWQXWU9T"',
+908 silly registry.get     'content-type': 'application/json',
+908 silly registry.get     'cache-control': 'max-age=60',
+908 silly registry.get     'content-length': '1010075',
+908 silly registry.get     'accept-ranges': 'bytes',
+908 silly registry.get     date: 'Tue, 08 Sep 2015 05:40:25 GMT',
+908 silly registry.get     via: '1.1 varnish',
+908 silly registry.get     age: '22',
+908 silly registry.get     connection: 'keep-alive',
+908 silly registry.get     'x-served-by': 'cache-dfw1827-DFW',
+908 silly registry.get     'x-cache': 'HIT',
+908 silly registry.get     'x-cache-hits': '1',
+908 silly registry.get     'x-timer': 'S1441690825.208849,VS0,VE5',
+908 silly registry.get     vary: 'Accept' } ]
+909 silly addNameRange number 2 { name: 'karma', range: '>=0.12.21-0 <0.13.0-0', hasData: true }
+910 silly addNameRange versions [ 'karma',
+910 silly addNameRange   [ '0.8.0',
+910 silly addNameRange     '0.9.0-dart',
+910 silly addNameRange     '0.8.1',
+910 silly addNameRange     '0.8.2',
+910 silly addNameRange     '0.8.3',
+910 silly addNameRange     '0.9.0',
+910 silly addNameRange     '0.8.4',
+910 silly addNameRange     '0.9.1',
+910 silly addNameRange     '0.8.5',
+910 silly addNameRange     '0.9.2',
+910 silly addNameRange     '0.9.2-dart',
+910 silly addNameRange     '0.9.3',
+910 silly addNameRange     '0.8.6',
+910 silly addNameRange     '0.9.4',
+910 silly addNameRange     '0.8.7',
+910 silly addNameRange     '0.9.5',
+910 silly addNameRange     '0.9.6',
+910 silly addNameRange     '0.8.8',
+910 silly addNameRange     '0.9.7',
+910 silly addNameRange     '0.9.8',
+910 silly addNameRange     '0.10.0',
+910 silly addNameRange     '0.10.1',
+910 silly addNameRange     '0.10.2',
+910 silly addNameRange     '0.11.0',
+910 silly addNameRange     '0.11.1',
+910 silly addNameRange     '0.10.3',
+910 silly addNameRange     '0.10.4',
+910 silly addNameRange     '0.11.2',
+910 silly addNameRange     '0.11.3',
+910 silly addNameRange     '0.10.5',
+910 silly addNameRange     '0.11.4',
+910 silly addNameRange     '0.11.5',
+910 silly addNameRange     '0.10.6',
+910 silly addNameRange     '0.11.6',
+910 silly addNameRange     '0.10.7',
+910 silly addNameRange     '0.11.7',
+910 silly addNameRange     '0.11.8',
+910 silly addNameRange     '0.11.9',
+910 silly addNameRange     '0.10.8',
+910 silly addNameRange     '0.11.10',
+910 silly addNameRange     '0.11.11',
+910 silly addNameRange     '0.11.12',
+910 silly addNameRange     '0.11.11-dev',
+910 silly addNameRange     '0.10.9',
+910 silly addNameRange     '0.11.12-dev',
+910 silly addNameRange     '0.11.12-dev2',
+910 silly addNameRange     '0.11.13',
+910 silly addNameRange     '0.11.14',
+910 silly addNameRange     '0.12.0',
+910 silly addNameRange     '0.10.10',
+910 silly addNameRange     '0.12.1',
+910 silly addNameRange     '0.12.2',
+910 silly addNameRange     '0.12.3',
+910 silly addNameRange     '0.12.4',
+910 silly addNameRange     '0.12.5',
+910 silly addNameRange     '0.12.6',
+910 silly addNameRange     '0.12.6-beta-43e6e28',
+910 silly addNameRange     '0.12.7',
+910 silly addNameRange     '0.12.8',
+910 silly addNameRange     '0.12.9',
+910 silly addNameRange     '0.12.10',
+910 silly addNameRange     '0.12.11',
+910 silly addNameRange     '0.12.12',
+910 silly addNameRange     '0.12.11-beta-3029418',
+910 silly addNameRange     '0.12.13',
+910 silly addNameRange     '0.12.14',
+910 silly addNameRange     '0.12.15',
+910 silly addNameRange     '0.12.16',
+910 silly addNameRange     '0.12.16-beta-905422d',
+910 silly addNameRange     '0.12.17',
+910 silly addNameRange     '0.12.18',
+910 silly addNameRange     '0.12.19',
+910 silly addNameRange     '0.12.20',
+910 silly addNameRange     '0.12.21',
+910 silly addNameRange     '0.12.22',
+910 silly addNameRange     '0.12.23',
+910 silly addNameRange     '0.12.24',
+910 silly addNameRange     '0.12.24-beta-6cf7955',
+910 silly addNameRange     '0.12.25',
+910 silly addNameRange     '0.12.25-beta-37a7958',
+910 silly addNameRange     '0.12.25-beta-ad5bc24',
+910 silly addNameRange     '0.12.26',
+910 silly addNameRange     '0.12.27',
+910 silly addNameRange     '0.12.28',
+910 silly addNameRange     '0.12.28-beta-b9be580',
+910 silly addNameRange     '0.12.29',
+910 silly addNameRange     '0.12.30',
+910 silly addNameRange     '0.12.31',
+910 silly addNameRange     '0.12.28-beta-f65c864',
+910 silly addNameRange     '0.12.24-dev-test',
+910 silly addNameRange     '0.12.24-dev-socketio10',
+910 silly addNameRange     '0.12.24-dev-socketio10-2',
+910 silly addNameRange     '0.12.32-beta.0',
+910 silly addNameRange     '0.12.32',
+910 silly addNameRange     '0.13.0-rc.0',
+910 silly addNameRange     '0.12.33',
+910 silly addNameRange     '0.13.0-rc.1',
+910 silly addNameRange     '0.12.34',
+910 silly addNameRange     '0.13.0-rc.2',
+910 silly addNameRange     '0.12.35',
+910 silly addNameRange     '0.13.0-rc.3',
+910 silly addNameRange     '0.12.36',
+910 silly addNameRange     '0.13.0-rc.4',
+910 silly addNameRange     '0.12.37',
+910 silly addNameRange     '0.13.0-rc.5',
+910 silly addNameRange     '0.13.0-rc.6',
+910 silly addNameRange     '0.13.0-rc.7',
+910 silly addNameRange     '0.13.0-rc.8',
+910 silly addNameRange     '0.13.0-rc.9',
+910 silly addNameRange     '0.13.0',
+910 silly addNameRange     '0.13.1',
+910 silly addNameRange     '0.13.2',
+910 silly addNameRange     '0.13.3',
+910 silly addNameRange     '0.13.4',
+910 silly addNameRange     '0.13.5',
+910 silly addNameRange     '0.13.6',
+910 silly addNameRange     '0.13.7',
+910 silly addNameRange     '0.13.8',
+910 silly addNameRange     '0.13.9' ] ]
+911 verbose addNamed [ 'karma', '0.12.37' ]
+912 verbose addNamed [ '0.12.37', '0.12.37' ]
+913 silly lockFile 43ccbf2f-karma-0-12-37 karma@0.12.37
+914 verbose lock karma@0.12.37 /home/brando/.npm/43ccbf2f-karma-0-12-37.lock
+915 silly lockFile 43ccbf2f-karma-0-12-37 karma@0.12.37
+916 silly lockFile 43ccbf2f-karma-0-12-37 karma@0.12.37
+917 silly lockFile 7dec21f7-karma-0-12-21 karma@~0.12.21
+918 silly lockFile 7dec21f7-karma-0-12-21 karma@~0.12.21
+919 error Error: EACCES, open '/home/brando/.npm/react/0.13.3/package/package.json.17326'
+919 error  { [Error: EACCES, open '/home/brando/.npm/react/0.13.3/package/package.json.17326']
+919 error   errno: 3,
+919 error   code: 'EACCES',
+919 error   path: '/home/brando/.npm/react/0.13.3/package/package.json.17326',
+919 error   parent: 'civichack' }
+920 error Please try running this command again as root/Administrator.
+921 error System Linux 3.11.0-15-generic
+922 error command "/usr/bin/node" "/usr/bin/npm" "install"
+923 error cwd /home/brando/Documents/civic_hack
+924 error node -v v0.10.32
+925 error npm -v 1.4.28
+926 error path /home/brando/.npm/react/0.13.3/package/package.json.17326
+927 error code EACCES
+928 error errno 3
+929 error stack Error: EACCES, open '/home/brando/.npm/react/0.13.3/package/package.json.17326'
+930 verbose exit [ 3, true ]
