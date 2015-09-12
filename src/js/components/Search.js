@@ -44,6 +44,7 @@ var Search = React.createClass({
     for (var i = 0; i < 10; i++) {
       listItems.push(
         <ListItem 
+          key={i}
           primaryText={
             <p>
               <span 
