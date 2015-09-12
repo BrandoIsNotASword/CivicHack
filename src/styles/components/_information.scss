@@ -6,9 +6,11 @@
     display: flex;
     flex-direction: column;
     background: {
-      image: url('http://www.elheraldodesaltillo.mx/wp-content/uploads/2015/09/20358880434_e3fe13495c_b-1024x682.jpg');
-      position: 0 0;
+      image: url('../images/background_info.png');
+      position: 50% 50%;
+      size: cover;
       repeat: no-repeat;
+      color: $green;
     }
     .information__image {
       align-self: center;

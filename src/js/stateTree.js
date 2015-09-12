@@ -4,7 +4,7 @@ var Baobab = require('baobab');
 var PureRenderMixin = require('react/addons').PureRenderMixin;
 
 module.exports = new Baobab({
-  hola: 'hola'
+  route: 'main'
 }, {
   shiftReferences: true,
   autoCommit: true,

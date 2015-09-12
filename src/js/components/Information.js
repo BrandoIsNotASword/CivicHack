@@ -9,12 +9,15 @@ var Avatar = require('material-ui').Avatar;
 var Paper = require('material-ui').Paper;
 var RaisedButton = require('material-ui').RaisedButton;
 
+var MainActions = require('../actions/MainActions');
+
 var Information = React.createClass({
   render: function() {
     return (
       <div className="information">
         <div className="information__header">
           <IconButton
+            onClick={this.handleClick}
             iconClassName="material-icons"
             iconStyle={{color: 'white'}}
           >
@@ -101,6 +104,10 @@ var Information = React.createClass({
     }
 
     return actions;
+  },
+
+  handleClick: function() {
+    MainActions.changeView('search');
   },
 
   _renderProfile: function() {

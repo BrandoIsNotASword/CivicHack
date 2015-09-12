@@ -10,6 +10,8 @@ var ListItem = require('material-ui').ListItem;
 var ListDivider = require('material-ui').ListDivider;
 var Avatar = require('material-ui').Avatar;
 
+var MainActions = require('../actions/MainActions');
+
 var imageURL = require('../../images/yeoman.png');
 
 var Search = React.createClass({
@@ -45,6 +47,7 @@ var Search = React.createClass({
       listItems.push(
         <ListItem 
           key={i}
+          onClick={this.handleClick}
           primaryText={
             <p>
               <span 
@@ -76,6 +79,10 @@ var Search = React.createClass({
     }
 
     return listItems;
+  },
+
+  handleClick: function() {
+    MainActions.changeView('information');
   }
 });
 
