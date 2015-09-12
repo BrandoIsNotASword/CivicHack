@@ -1,44 +1,35 @@
 @import 'base/normalize';
 @import 'helpers/mixins';
 @import 'helpers/variables';
+@import 'components/presentation';
+@import 'components/search';
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
-html, body {
-  background: #222222;
+* {
+  font-family: 'Roboto', sans-serif, Arial, Helvatica;
 }
 
-/* main */
-
-.main {
-  width: 100%;
+html, 
+body, 
+#app,
+#app > div {
+  background: $white;
   height: 100%;
-  background: #222222;
-  color: #fff;
-  img {
-    width: 103px;
-    height: 89px;
-    margin-bottom: 10px;
-    text-align: center;  
-  }
 }
 
-/* transitions */
-
-.fade-enter {
-  opacity: 0.01;
-  transition: opacity .5s ease-in;
+a,
+p,
+ul,
+ol,
+li,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
 }
 
-.fade-enter.fade-enter-active {
-  opacity: 1;
-}
-
-.fade-leave {
-  opacity: 1;
-  transition: opacity .5s ease-in;
-}
-
-.fade-leave.fade-leave-active {
-  opacity: 0.01;
+a {
+  text-decoration: none;
 }
