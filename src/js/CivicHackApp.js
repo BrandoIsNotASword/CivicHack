@@ -1,21 +1,65 @@
 'use strict';
 
 var React = require('react/addons');
+var mixin = require('baobab-react/mixins');
+var tree = require('./stateTree.js');
+
+// var ReactVelocityTransitionGroup = require('./components/VelocityTransitionGroup');
+var request = require('superagent');
 var injectTapEventPlugin = require('react-tap-event-plugin');
+require('superagent-jsonp')(request);
+injectTapEventPlugin();
+
 var ThemeManager = require('material-ui/lib/styles/theme-manager')();
 var mui = require('material-ui');
 var CircularProgress = mui.CircularProgress;
 
-var ReactTransitionGroup = React.addons.TransitionGroup;
-
-injectTapEventPlugin();
+var fastClick = require('fastclick');
 
 // CSS
 require('../styles/main.scss');
 
-var imageURL = require('../images/yeoman.png');
+// var imageURL = require('../images/yeoman.png');
+
+var overlayStyles = {
+  backgroundColor: 'red',
+  display: 'flex',
+  width: '320px',
+  height: '480px'
+};
 
 var CivicHackApp = React.createClass({
+  mixins: [mixin.branch],
+
+  cursors: {
+    hola: ['hola']
+  },
+
+  render: function() {
+    return (
+      <div style={overlayStyles}>
+        {this.state.hola}
+        <CircularProgress mode="indeterminate" />
+      </div>
+    );
+  }
+});
+
+var CivicHackAppWrapper = React.createClass({
+  mixins: [mixin.root],
+
+  componentDidMount: function() {
+    // var q = '1';
+
+    // request
+    //   .get('http://pokeapi.co/api/v1/pokemon/' + q)
+    //   // .query(q)
+    //   .jsonp()
+    //   .end(function(err, res) {
+    //     var body = res.body;
+    //   });
+  },
+
   childContextTypes: {
     muiTheme: React.PropTypes.object
   },
@@ -27,15 +71,9 @@ var CivicHackApp = React.createClass({
   },
 
   render: function() {
-    return (
-      <div className="main">
-        <ReactTransitionGroup transitionName="fade">
-          <CircularProgress mode="indeterminate" />
-        </ReactTransitionGroup>
-      </div>
-    );
+    return <CivicHackApp />;
   }
 });
-React.render(<CivicHackApp />, document.getElementById('content')); // jshint ignore:line
+React.render(<CivicHackAppWrapper tree={tree} />, document.getElementById('content')); // jshint ignore:line
 
-module.exports = CivicHackApp;
+fastClick.attach(document.body);
